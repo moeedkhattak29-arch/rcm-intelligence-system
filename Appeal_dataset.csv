@@ -1,0 +1,1001 @@
+claim_id,patient_age,gender,claim_type,diagnosis_code,procedure_code,insurance_type,denial_reason,ar_days,prior_appeals,success
+CLM-10001,56,Female,Outpatient,J45.909,99291,Medicare,Lack of Information,12,2,0
+CLM-10002,54,Male,Inpatient,J45.909,80053,Medicare,Provider Not in Network,41,3,0
+CLM-10003,71,Other,Inpatient,Z95.1,93000,Workers Comp,Medical Necessity,57,1,1
+CLM-10004,38,Female,Outpatient,I10,99291,Private,Prior Authorization Missing,34,2,1
+CLM-10005,70,Other,Inpatient,I10,80053,Private,Medical Necessity,107,0,1
+CLM-10006,37,Female,Inpatient,M54.5,99213,Medicare,Non-Covered Service,24,3,1
+CLM-10007,18,Female,Outpatient,J45.909,99215,Workers Comp,Coordination of Benefits,0,3,1
+CLM-10008,55,Female,Inpatient,S62.0,71045,Private,Lack of Information,94,1,1
+CLM-10009,60,Other,Inpatient,K21.9,99214,Workers Comp,Lack of Information,11,2,1
+CLM-10010,49,Female,Emergency,S62.0,99214,Workers Comp,Non-Covered Service,50,0,0
+CLM-10011,84,Female,Emergency,S62.0,99214,Medicare,Medical Necessity,15,3,1
+CLM-10012,46,Female,Inpatient,I10,99213,Private,Duplicate Claim,42,3,1
+CLM-10013,23,Female,Outpatient,J45.909,99215,Medicaid,Prior Authorization Missing,48,3,0
+CLM-10014,65,Other,Inpatient,E11.9,99283,Medicare,Duplicate Claim,54,1,0
+CLM-10015,61,Male,Outpatient,K21.9,80053,Workers Comp,Non-Covered Service,61,3,1
+CLM-10016,49,Female,Outpatient,G43.9,99283,Medicare,Coordination of Benefits,104,0,1
+CLM-10017,66,Female,Outpatient,Z95.1,99213,Private,Lack of Information,16,1,1
+CLM-10018,43,Female,Outpatient,K21.9,99291,Medicare,Provider Not in Network,92,0,0
+CLM-10019,81,Female,Emergency,N18.3,71045,Private,Timely Filing,117,1,0
+CLM-10020,23,Female,Emergency,I10,71045,Workers Comp,Medical Necessity,91,3,1
+CLM-10021,27,Female,Inpatient,K21.9,93000,Workers Comp,Non-Covered Service,55,1,1
+CLM-10022,72,Female,Outpatient,J45.909,99291,Workers Comp,Provider Not in Network,112,3,1
+CLM-10023,25,Male,Emergency,Z95.1,99283,Workers Comp,Provider Not in Network,87,0,1
+CLM-10024,67,Female,Emergency,M54.5,99283,Private,Duplicate Claim,103,0,0
+CLM-10025,69,Other,Inpatient,M54.5,80053,Workers Comp,Timely Filing,42,3,0
+CLM-10026,76,Female,Inpatient,I10,99215,Workers Comp,Prior Authorization Missing,27,2,1
+CLM-10027,48,Male,Outpatient,M54.5,99214,Workers Comp,Lack of Information,93,3,1
+CLM-10028,70,Other,Inpatient,G43.9,99283,Private,Medical Necessity,105,2,0
+CLM-10029,70,Female,Outpatient,S62.0,99283,Private,Lack of Information,97,0,1
+CLM-10030,36,Male,Emergency,G43.9,99291,Medicaid,Incorrect Coding,6,0,1
+CLM-10031,20,Other,Emergency,K21.9,99214,Medicaid,Provider Not in Network,24,2,1
+CLM-10032,46,Male,Emergency,I10,80053,Medicare,Duplicate Claim,16,0,0
+CLM-10033,58,Female,Emergency,N18.3,93000,Medicare,Duplicate Claim,48,3,1
+CLM-10034,75,Female,Emergency,E11.9,71045,Medicare,Incorrect Coding,52,2,1
+CLM-10035,21,Other,Inpatient,M54.5,99214,Medicaid,Experimental/Investigational,0,3,1
+CLM-10036,59,Male,Emergency,E11.9,99214,Medicaid,Lack of Information,94,1,1
+CLM-10037,76,Other,Outpatient,S62.0,71045,Workers Comp,Coordination of Benefits,110,3,0
+CLM-10038,20,Other,Outpatient,M54.5,71045,Private,Experimental/Investigational,2,0,1
+CLM-10039,22,Male,Emergency,M54.5,99215,Private,Medical Necessity,28,3,1
+CLM-10040,27,Other,Emergency,I10,71045,Medicare,Provider Not in Network,115,0,1
+CLM-10041,25,Male,Emergency,I10,93000,Private,Timely Filing,68,3,0
+CLM-10042,33,Other,Inpatient,I10,99215,Workers Comp,Coordination of Benefits,72,3,0
+CLM-10043,55,Female,Inpatient,E11.9,99214,Private,Timely Filing,2,3,1
+CLM-10044,40,Other,Outpatient,I10,99214,Medicaid,Medical Necessity,36,3,0
+CLM-10045,34,Other,Emergency,G43.9,99283,Medicare,Medical Necessity,68,1,1
+CLM-10046,25,Female,Outpatient,Z95.1,99213,Workers Comp,Experimental/Investigational,86,2,0
+CLM-10047,49,Other,Inpatient,E11.9,99214,Workers Comp,Non-Covered Service,13,3,1
+CLM-10048,65,Male,Outpatient,N18.3,93000,Workers Comp,Prior Authorization Missing,38,3,1
+CLM-10049,34,Other,Inpatient,E11.9,71045,Workers Comp,Medical Necessity,111,1,0
+CLM-10050,43,Male,Emergency,Z95.1,99214,Workers Comp,Coordination of Benefits,95,1,1
+CLM-10051,23,Male,Outpatient,I10,99291,Workers Comp,Experimental/Investigational,58,3,1
+CLM-10052,55,Male,Emergency,E11.9,99214,Workers Comp,Provider Not in Network,91,3,1
+CLM-10053,44,Male,Emergency,N18.3,99214,Private,Provider Not in Network,25,1,1
+CLM-10054,75,Male,Inpatient,I10,93000,Private,Duplicate Claim,115,0,1
+CLM-10055,72,Male,Inpatient,C50.9,99213,Medicaid,Experimental/Investigational,99,2,0
+CLM-10056,44,Male,Outpatient,J45.909,99291,Private,Duplicate Claim,9,3,1
+CLM-10057,49,Other,Emergency,N18.3,99215,Private,Non-Covered Service,119,0,0
+CLM-10058,59,Female,Outpatient,E11.9,99215,Workers Comp,Experimental/Investigational,32,2,0
+CLM-10059,34,Female,Emergency,M54.5,99283,Medicare,Duplicate Claim,98,0,1
+CLM-10060,81,Other,Inpatient,K21.9,99283,Medicaid,Provider Not in Network,112,2,1
+CLM-10061,76,Female,Emergency,M54.5,93000,Private,Non-Covered Service,57,0,0
+CLM-10062,43,Female,Outpatient,J45.909,80053,Private,Prior Authorization Missing,72,3,1
+CLM-10063,77,Female,Inpatient,Z95.1,99291,Medicare,Timely Filing,90,1,1
+CLM-10064,70,Male,Inpatient,E11.9,80053,Medicaid,Medical Necessity,14,2,0
+CLM-10065,66,Male,Emergency,Z95.1,71045,Medicaid,Duplicate Claim,0,3,0
+CLM-10066,49,Other,Emergency,G43.9,71045,Workers Comp,Prior Authorization Missing,3,2,1
+CLM-10067,39,Other,Emergency,G43.9,99283,Workers Comp,Lack of Information,66,2,1
+CLM-10068,48,Other,Outpatient,N18.3,80053,Medicaid,Incorrect Coding,79,3,0
+CLM-10069,75,Other,Emergency,K21.9,71045,Workers Comp,Duplicate Claim,119,1,0
+CLM-10070,22,Female,Outpatient,N18.3,99215,Workers Comp,Medical Necessity,119,3,0
+CLM-10071,83,Other,Emergency,N18.3,71045,Private,Coordination of Benefits,100,3,1
+CLM-10072,66,Female,Outpatient,G43.9,93000,Medicaid,Incorrect Coding,41,1,1
+CLM-10073,73,Other,Emergency,S62.0,93000,Private,Lack of Information,75,1,1
+CLM-10074,64,Female,Inpatient,G43.9,99283,Private,Non-Covered Service,83,0,1
+CLM-10075,62,Other,Emergency,S62.0,71045,Workers Comp,Provider Not in Network,100,1,1
+CLM-10076,51,Female,Outpatient,M54.5,99283,Medicare,Provider Not in Network,77,3,1
+CLM-10077,63,Other,Inpatient,N18.3,99283,Medicaid,Duplicate Claim,112,3,0
+CLM-10078,25,Male,Inpatient,S62.0,99214,Medicaid,Experimental/Investigational,96,2,0
+CLM-10079,36,Other,Inpatient,G43.9,71045,Workers Comp,Experimental/Investigational,43,3,0
+CLM-10080,38,Female,Inpatient,G43.9,99283,Workers Comp,Duplicate Claim,8,1,0
+CLM-10081,27,Other,Outpatient,E11.9,93000,Workers Comp,Incorrect Coding,54,1,0
+CLM-10082,65,Male,Outpatient,M54.5,99214,Medicare,Provider Not in Network,119,1,0
+CLM-10083,79,Other,Outpatient,K21.9,99291,Medicaid,Duplicate Claim,9,0,0
+CLM-10084,33,Male,Emergency,S62.0,99283,Workers Comp,Incorrect Coding,11,2,1
+CLM-10085,69,Male,Outpatient,I10,71045,Medicaid,Experimental/Investigational,31,0,1
+CLM-10086,41,Male,Inpatient,Z95.1,99214,Workers Comp,Provider Not in Network,36,3,0
+CLM-10087,75,Female,Inpatient,S62.0,99214,Medicare,Lack of Information,68,1,1
+CLM-10088,35,Female,Inpatient,G43.9,80053,Private,Provider Not in Network,63,0,1
+CLM-10089,54,Female,Inpatient,S62.0,99213,Private,Incorrect Coding,12,0,0
+CLM-10090,57,Female,Emergency,C50.9,80053,Workers Comp,Coordination of Benefits,87,2,0
+CLM-10091,52,Female,Emergency,I10,99283,Medicare,Timely Filing,65,0,0
+CLM-10092,34,Male,Emergency,C50.9,99291,Private,Prior Authorization Missing,112,0,1
+CLM-10093,75,Female,Inpatient,J45.909,99214,Private,Provider Not in Network,63,1,1
+CLM-10094,82,Female,Inpatient,J45.909,99214,Medicare,Provider Not in Network,109,1,1
+CLM-10095,70,Male,Outpatient,N18.3,99215,Medicare,Non-Covered Service,51,1,0
+CLM-10096,39,Female,Emergency,N18.3,71045,Medicare,Experimental/Investigational,81,2,1
+CLM-10097,26,Male,Inpatient,C50.9,71045,Medicaid,Coordination of Benefits,76,0,0
+CLM-10098,20,Other,Emergency,J45.909,99213,Medicaid,Incorrect Coding,105,1,0
+CLM-10099,56,Female,Emergency,Z95.1,99283,Medicaid,Timely Filing,22,0,1
+CLM-10100,79,Female,Outpatient,M54.5,99283,Medicaid,Timely Filing,97,0,0
+CLM-10101,82,Other,Outpatient,C50.9,99214,Medicare,Timely Filing,107,3,0
+CLM-10102,21,Other,Outpatient,E11.9,80053,Medicaid,Experimental/Investigational,26,3,0
+CLM-10103,34,Female,Inpatient,C50.9,99215,Workers Comp,Coordination of Benefits,94,3,0
+CLM-10104,35,Female,Outpatient,G43.9,71045,Medicaid,Provider Not in Network,49,2,0
+CLM-10105,81,Other,Outpatient,E11.9,99283,Workers Comp,Duplicate Claim,108,1,1
+CLM-10106,31,Male,Inpatient,I10,99291,Medicare,Medical Necessity,114,2,1
+CLM-10107,34,Other,Outpatient,S62.0,99213,Workers Comp,Coordination of Benefits,2,3,1
+CLM-10108,18,Female,Outpatient,M54.5,71045,Medicaid,Coordination of Benefits,61,3,0
+CLM-10109,39,Female,Outpatient,G43.9,99214,Private,Medical Necessity,85,0,1
+CLM-10110,72,Female,Emergency,Z95.1,80053,Medicaid,Medical Necessity,73,1,0
+CLM-10111,74,Other,Emergency,Z95.1,99213,Private,Incorrect Coding,118,0,1
+CLM-10112,50,Female,Outpatient,E11.9,93000,Medicaid,Provider Not in Network,74,2,1
+CLM-10113,59,Male,Inpatient,C50.9,99291,Medicaid,Experimental/Investigational,66,1,1
+CLM-10114,49,Female,Emergency,E11.9,99215,Private,Non-Covered Service,90,2,0
+CLM-10115,76,Male,Emergency,K21.9,99213,Private,Lack of Information,83,2,1
+CLM-10116,77,Other,Inpatient,Z95.1,99214,Medicare,Incorrect Coding,0,0,0
+CLM-10117,38,Other,Emergency,Z95.1,99291,Private,Duplicate Claim,50,3,1
+CLM-10118,74,Other,Emergency,G43.9,71045,Medicaid,Timely Filing,84,2,0
+CLM-10119,72,Female,Outpatient,M54.5,99214,Medicaid,Provider Not in Network,54,1,1
+CLM-10120,77,Male,Inpatient,C50.9,99291,Workers Comp,Coordination of Benefits,40,2,0
+CLM-10121,31,Other,Emergency,Z95.1,99291,Private,Coordination of Benefits,85,2,0
+CLM-10122,46,Male,Outpatient,M54.5,93000,Private,Duplicate Claim,11,3,1
+CLM-10123,59,Other,Outpatient,C50.9,93000,Workers Comp,Provider Not in Network,110,1,0
+CLM-10124,46,Other,Emergency,Z95.1,99214,Medicaid,Provider Not in Network,9,1,0
+CLM-10125,21,Female,Emergency,I10,99213,Private,Prior Authorization Missing,1,1,0
+CLM-10126,32,Other,Emergency,S62.0,71045,Medicare,Provider Not in Network,0,3,1
+CLM-10127,50,Other,Inpatient,G43.9,93000,Workers Comp,Timely Filing,52,2,0
+CLM-10128,79,Other,Inpatient,M54.5,99214,Medicare,Prior Authorization Missing,24,2,1
+CLM-10129,43,Female,Emergency,E11.9,99291,Private,Timely Filing,24,0,1
+CLM-10130,41,Male,Outpatient,S62.0,93000,Private,Lack of Information,7,3,1
+CLM-10131,59,Female,Emergency,K21.9,71045,Private,Prior Authorization Missing,3,1,1
+CLM-10132,78,Male,Outpatient,C50.9,71045,Medicaid,Medical Necessity,117,3,1
+CLM-10133,43,Other,Outpatient,G43.9,71045,Private,Prior Authorization Missing,38,2,0
+CLM-10134,42,Male,Emergency,I10,80053,Workers Comp,Incorrect Coding,80,2,0
+CLM-10135,74,Male,Outpatient,I10,71045,Private,Lack of Information,105,2,1
+CLM-10136,72,Other,Emergency,C50.9,99215,Private,Medical Necessity,8,3,1
+CLM-10137,62,Male,Inpatient,G43.9,99214,Private,Coordination of Benefits,54,2,0
+CLM-10138,22,Other,Inpatient,K21.9,99213,Workers Comp,Incorrect Coding,112,2,1
+CLM-10139,29,Female,Outpatient,Z95.1,99213,Medicaid,Non-Covered Service,16,1,1
+CLM-10140,29,Other,Outpatient,J45.909,99291,Medicare,Prior Authorization Missing,40,1,1
+CLM-10141,67,Other,Emergency,K21.9,99213,Medicare,Coordination of Benefits,37,1,1
+CLM-10142,38,Other,Outpatient,J45.909,71045,Medicaid,Incorrect Coding,5,3,1
+CLM-10143,77,Other,Inpatient,I10,80053,Medicare,Timely Filing,110,1,0
+CLM-10144,19,Other,Outpatient,C50.9,99214,Medicare,Prior Authorization Missing,57,0,1
+CLM-10145,26,Female,Outpatient,M54.5,99291,Private,Non-Covered Service,64,2,1
+CLM-10146,50,Other,Outpatient,M54.5,71045,Medicare,Coordination of Benefits,75,0,0
+CLM-10147,31,Female,Outpatient,M54.5,99283,Private,Medical Necessity,6,3,1
+CLM-10148,24,Female,Inpatient,K21.9,99215,Workers Comp,Timely Filing,52,0,0
+CLM-10149,65,Male,Outpatient,J45.909,71045,Medicare,Incorrect Coding,94,2,0
+CLM-10150,31,Female,Inpatient,I10,99214,Medicare,Prior Authorization Missing,39,3,0
+CLM-10151,18,Female,Outpatient,K21.9,93000,Private,Provider Not in Network,25,3,1
+CLM-10152,44,Other,Inpatient,E11.9,99215,Workers Comp,Timely Filing,103,3,0
+CLM-10153,84,Other,Emergency,C50.9,99215,Private,Duplicate Claim,13,3,1
+CLM-10154,81,Other,Emergency,I10,71045,Medicaid,Duplicate Claim,104,0,0
+CLM-10155,75,Other,Emergency,E11.9,71045,Private,Prior Authorization Missing,89,2,1
+CLM-10156,42,Other,Outpatient,M54.5,71045,Private,Timely Filing,58,1,1
+CLM-10157,18,Other,Inpatient,E11.9,99213,Workers Comp,Timely Filing,95,3,0
+CLM-10158,31,Male,Emergency,N18.3,99214,Workers Comp,Duplicate Claim,87,3,0
+CLM-10159,82,Other,Emergency,K21.9,99215,Workers Comp,Incorrect Coding,83,1,0
+CLM-10160,18,Female,Inpatient,I10,71045,Medicare,Incorrect Coding,95,3,1
+CLM-10161,54,Other,Emergency,N18.3,71045,Medicare,Experimental/Investigational,3,2,0
+CLM-10162,81,Male,Emergency,J45.909,71045,Medicaid,Incorrect Coding,23,3,1
+CLM-10163,69,Male,Inpatient,M54.5,99291,Medicare,Timely Filing,79,1,0
+CLM-10164,65,Female,Outpatient,G43.9,99291,Private,Prior Authorization Missing,35,2,0
+CLM-10165,32,Female,Outpatient,K21.9,80053,Medicaid,Experimental/Investigational,25,1,1
+CLM-10166,19,Other,Inpatient,N18.3,71045,Medicare,Prior Authorization Missing,105,0,0
+CLM-10167,78,Other,Emergency,S62.0,99214,Medicare,Incorrect Coding,115,0,0
+CLM-10168,23,Female,Emergency,M54.5,93000,Medicare,Duplicate Claim,35,0,0
+CLM-10169,81,Female,Inpatient,G43.9,99214,Medicare,Experimental/Investigational,82,1,0
+CLM-10170,74,Male,Emergency,G43.9,93000,Medicaid,Duplicate Claim,68,2,1
+CLM-10171,82,Female,Emergency,Z95.1,99291,Workers Comp,Non-Covered Service,78,0,0
+CLM-10172,39,Other,Inpatient,I10,99283,Private,Non-Covered Service,23,2,1
+CLM-10173,50,Female,Outpatient,G43.9,80053,Medicaid,Coordination of Benefits,24,0,1
+CLM-10174,34,Other,Inpatient,G43.9,99213,Medicare,Non-Covered Service,85,0,0
+CLM-10175,30,Other,Inpatient,N18.3,71045,Private,Provider Not in Network,63,3,0
+CLM-10176,73,Male,Inpatient,I10,99213,Private,Medical Necessity,52,1,1
+CLM-10177,50,Male,Emergency,Z95.1,99213,Workers Comp,Provider Not in Network,23,1,1
+CLM-10178,55,Male,Outpatient,I10,71045,Workers Comp,Non-Covered Service,93,2,0
+CLM-10179,77,Female,Inpatient,I10,99214,Private,Non-Covered Service,79,2,1
+CLM-10180,62,Other,Outpatient,G43.9,99215,Medicaid,Experimental/Investigational,109,3,0
+CLM-10181,63,Male,Outpatient,M54.5,80053,Private,Incorrect Coding,34,3,1
+CLM-10182,80,Female,Inpatient,M54.5,71045,Medicare,Coordination of Benefits,48,1,0
+CLM-10183,30,Male,Inpatient,Z95.1,99283,Private,Duplicate Claim,17,3,1
+CLM-10184,18,Male,Outpatient,N18.3,99215,Medicare,Medical Necessity,44,2,1
+CLM-10185,55,Male,Outpatient,I10,93000,Private,Incorrect Coding,58,2,0
+CLM-10186,50,Other,Outpatient,N18.3,99213,Private,Medical Necessity,87,1,0
+CLM-10187,78,Female,Inpatient,K21.9,93000,Private,Incorrect Coding,114,1,1
+CLM-10188,63,Male,Emergency,E11.9,80053,Medicare,Incorrect Coding,11,1,1
+CLM-10189,55,Female,Inpatient,N18.3,71045,Medicaid,Provider Not in Network,113,2,1
+CLM-10190,82,Male,Emergency,S62.0,93000,Private,Incorrect Coding,99,3,1
+CLM-10191,62,Other,Emergency,Z95.1,71045,Medicaid,Timely Filing,25,2,1
+CLM-10192,72,Male,Emergency,G43.9,99213,Medicaid,Duplicate Claim,23,0,1
+CLM-10193,45,Other,Outpatient,M54.5,71045,Medicaid,Duplicate Claim,76,3,0
+CLM-10194,42,Other,Outpatient,C50.9,71045,Workers Comp,Experimental/Investigational,67,2,0
+CLM-10195,80,Other,Inpatient,E11.9,99213,Medicaid,Lack of Information,75,3,0
+CLM-10196,47,Male,Emergency,S62.0,99213,Private,Experimental/Investigational,105,3,0
+CLM-10197,61,Female,Inpatient,C50.9,71045,Workers Comp,Lack of Information,57,3,1
+CLM-10198,74,Male,Outpatient,S62.0,71045,Medicaid,Timely Filing,41,1,0
+CLM-10199,59,Other,Inpatient,J45.909,99291,Workers Comp,Non-Covered Service,59,2,1
+CLM-10200,82,Female,Emergency,M54.5,99215,Medicare,Lack of Information,17,0,1
+CLM-10201,55,Male,Emergency,E11.9,99283,Workers Comp,Coordination of Benefits,119,1,0
+CLM-10202,42,Male,Outpatient,E11.9,93000,Medicaid,Duplicate Claim,84,3,0
+CLM-10203,20,Male,Outpatient,K21.9,99283,Medicaid,Prior Authorization Missing,60,2,0
+CLM-10204,23,Male,Emergency,C50.9,99291,Medicare,Incorrect Coding,41,3,0
+CLM-10205,41,Male,Outpatient,N18.3,99214,Private,Provider Not in Network,84,0,0
+CLM-10206,39,Other,Emergency,J45.909,99214,Medicare,Incorrect Coding,71,1,0
+CLM-10207,83,Female,Inpatient,G43.9,80053,Private,Prior Authorization Missing,73,2,0
+CLM-10208,30,Female,Emergency,Z95.1,80053,Medicaid,Non-Covered Service,5,2,1
+CLM-10209,44,Female,Outpatient,C50.9,93000,Workers Comp,Provider Not in Network,18,0,1
+CLM-10210,81,Female,Inpatient,M54.5,80053,Medicaid,Medical Necessity,108,2,1
+CLM-10211,77,Female,Outpatient,J45.909,80053,Medicaid,Provider Not in Network,97,2,0
+CLM-10212,81,Other,Emergency,S62.0,71045,Medicaid,Prior Authorization Missing,105,3,0
+CLM-10213,59,Male,Emergency,Z95.1,99214,Medicaid,Timely Filing,51,1,1
+CLM-10214,68,Other,Emergency,G43.9,99283,Private,Duplicate Claim,36,0,1
+CLM-10215,84,Male,Inpatient,E11.9,99213,Medicaid,Prior Authorization Missing,50,2,1
+CLM-10216,19,Male,Inpatient,S62.0,80053,Medicaid,Duplicate Claim,75,3,1
+CLM-10217,49,Other,Outpatient,Z95.1,80053,Private,Lack of Information,25,3,1
+CLM-10218,22,Female,Outpatient,Z95.1,99283,Private,Duplicate Claim,49,1,1
+CLM-10219,50,Male,Emergency,N18.3,99213,Workers Comp,Timely Filing,101,0,0
+CLM-10220,78,Other,Emergency,S62.0,99213,Private,Timely Filing,77,3,0
+CLM-10221,48,Female,Emergency,S62.0,99283,Private,Provider Not in Network,107,0,0
+CLM-10222,27,Female,Inpatient,N18.3,93000,Medicare,Incorrect Coding,108,1,0
+CLM-10223,35,Female,Outpatient,J45.909,99291,Medicaid,Lack of Information,7,3,1
+CLM-10224,56,Male,Inpatient,G43.9,99213,Workers Comp,Medical Necessity,84,2,0
+CLM-10225,40,Female,Emergency,J45.909,93000,Medicare,Provider Not in Network,107,2,0
+CLM-10226,30,Other,Emergency,Z95.1,99214,Medicare,Provider Not in Network,119,2,1
+CLM-10227,47,Male,Emergency,C50.9,80053,Private,Incorrect Coding,60,0,1
+CLM-10228,37,Male,Inpatient,M54.5,80053,Private,Medical Necessity,99,2,0
+CLM-10229,80,Other,Emergency,E11.9,71045,Private,Non-Covered Service,21,2,0
+CLM-10230,35,Male,Outpatient,S62.0,99215,Workers Comp,Provider Not in Network,2,2,0
+CLM-10231,28,Male,Outpatient,E11.9,99215,Medicare,Timely Filing,19,3,0
+CLM-10232,31,Female,Inpatient,E11.9,93000,Medicare,Duplicate Claim,94,3,0
+CLM-10233,71,Female,Inpatient,I10,99214,Medicare,Lack of Information,53,3,1
+CLM-10234,48,Male,Outpatient,I10,99283,Medicaid,Incorrect Coding,57,2,0
+CLM-10235,37,Female,Emergency,J45.909,99213,Private,Medical Necessity,37,2,0
+CLM-10236,55,Female,Inpatient,C50.9,99214,Medicare,Timely Filing,60,0,0
+CLM-10237,78,Female,Outpatient,K21.9,71045,Medicare,Prior Authorization Missing,85,2,1
+CLM-10238,19,Male,Emergency,M54.5,71045,Medicare,Lack of Information,60,3,1
+CLM-10239,58,Other,Inpatient,N18.3,99214,Private,Non-Covered Service,85,2,1
+CLM-10240,82,Other,Emergency,I10,71045,Private,Coordination of Benefits,91,1,1
+CLM-10241,44,Female,Emergency,C50.9,99291,Workers Comp,Duplicate Claim,58,2,1
+CLM-10242,54,Male,Outpatient,K21.9,99215,Workers Comp,Provider Not in Network,17,0,0
+CLM-10243,83,Other,Inpatient,S62.0,99291,Medicare,Coordination of Benefits,50,1,0
+CLM-10244,64,Female,Inpatient,Z95.1,99214,Medicare,Experimental/Investigational,11,1,1
+CLM-10245,61,Male,Outpatient,Z95.1,99283,Medicaid,Lack of Information,85,1,0
+CLM-10246,22,Female,Emergency,J45.909,71045,Medicaid,Timely Filing,25,3,1
+CLM-10247,53,Other,Inpatient,I10,99215,Private,Medical Necessity,74,0,1
+CLM-10248,24,Male,Outpatient,I10,80053,Medicare,Prior Authorization Missing,55,3,0
+CLM-10249,44,Other,Emergency,E11.9,99291,Medicare,Duplicate Claim,15,0,0
+CLM-10250,76,Female,Inpatient,I10,93000,Medicare,Incorrect Coding,86,1,0
+CLM-10251,59,Female,Inpatient,S62.0,93000,Medicare,Lack of Information,32,0,0
+CLM-10252,35,Female,Inpatient,G43.9,99283,Workers Comp,Timely Filing,57,1,0
+CLM-10253,50,Male,Emergency,G43.9,80053,Workers Comp,Timely Filing,64,2,1
+CLM-10254,73,Female,Inpatient,S62.0,99215,Private,Timely Filing,29,1,0
+CLM-10255,40,Female,Emergency,G43.9,99215,Medicaid,Provider Not in Network,63,3,1
+CLM-10256,22,Female,Inpatient,E11.9,99213,Medicare,Timely Filing,77,2,0
+CLM-10257,67,Male,Inpatient,M54.5,99215,Workers Comp,Timely Filing,117,0,0
+CLM-10258,84,Female,Inpatient,Z95.1,99291,Private,Duplicate Claim,67,3,0
+CLM-10259,50,Female,Outpatient,M54.5,80053,Workers Comp,Duplicate Claim,95,3,0
+CLM-10260,83,Male,Inpatient,K21.9,99214,Private,Provider Not in Network,56,1,0
+CLM-10261,42,Female,Emergency,S62.0,93000,Workers Comp,Lack of Information,4,0,1
+CLM-10262,60,Male,Emergency,I10,71045,Private,Prior Authorization Missing,32,2,1
+CLM-10263,74,Female,Inpatient,M54.5,99283,Workers Comp,Experimental/Investigational,54,1,0
+CLM-10264,29,Other,Emergency,K21.9,80053,Medicare,Prior Authorization Missing,7,0,1
+CLM-10265,61,Female,Inpatient,J45.909,93000,Workers Comp,Duplicate Claim,39,0,0
+CLM-10266,22,Female,Outpatient,N18.3,99283,Medicare,Non-Covered Service,88,1,0
+CLM-10267,45,Female,Inpatient,C50.9,80053,Workers Comp,Provider Not in Network,116,0,1
+CLM-10268,48,Female,Outpatient,G43.9,99283,Private,Lack of Information,78,2,0
+CLM-10269,65,Male,Emergency,G43.9,99215,Private,Medical Necessity,45,3,0
+CLM-10270,78,Male,Outpatient,M54.5,99283,Workers Comp,Coordination of Benefits,58,3,1
+CLM-10271,85,Other,Outpatient,C50.9,93000,Private,Timely Filing,90,2,1
+CLM-10272,35,Other,Emergency,N18.3,99214,Medicare,Provider Not in Network,47,0,0
+CLM-10273,38,Other,Outpatient,J45.909,99215,Workers Comp,Lack of Information,92,3,1
+CLM-10274,84,Female,Outpatient,K21.9,99215,Medicare,Duplicate Claim,20,1,1
+CLM-10275,78,Female,Outpatient,M54.5,99283,Medicaid,Prior Authorization Missing,75,1,0
+CLM-10276,84,Male,Emergency,I10,93000,Private,Duplicate Claim,53,1,1
+CLM-10277,79,Female,Inpatient,E11.9,99291,Workers Comp,Timely Filing,53,2,0
+CLM-10278,20,Other,Emergency,N18.3,93000,Private,Lack of Information,32,3,1
+CLM-10279,42,Male,Outpatient,E11.9,71045,Medicaid,Experimental/Investigational,71,0,0
+CLM-10280,78,Male,Inpatient,K21.9,80053,Medicare,Incorrect Coding,101,2,0
+CLM-10281,32,Male,Inpatient,G43.9,99214,Medicare,Lack of Information,80,0,0
+CLM-10282,26,Female,Outpatient,N18.3,99215,Medicare,Provider Not in Network,47,1,1
+CLM-10283,75,Female,Outpatient,G43.9,99283,Private,Experimental/Investigational,70,0,0
+CLM-10284,37,Male,Outpatient,G43.9,99291,Private,Medical Necessity,17,1,1
+CLM-10285,41,Female,Outpatient,G43.9,99283,Private,Experimental/Investigational,29,0,0
+CLM-10286,73,Male,Outpatient,N18.3,99213,Medicaid,Incorrect Coding,77,3,0
+CLM-10287,65,Male,Emergency,C50.9,99213,Private,Duplicate Claim,85,0,1
+CLM-10288,46,Female,Outpatient,N18.3,99283,Private,Experimental/Investigational,89,2,1
+CLM-10289,23,Female,Inpatient,J45.909,99215,Workers Comp,Non-Covered Service,24,3,0
+CLM-10290,28,Male,Inpatient,C50.9,80053,Medicaid,Coordination of Benefits,87,3,1
+CLM-10291,66,Female,Outpatient,I10,93000,Private,Timely Filing,16,0,0
+CLM-10292,51,Female,Emergency,I10,80053,Medicare,Coordination of Benefits,2,2,0
+CLM-10293,79,Female,Emergency,J45.909,99213,Workers Comp,Experimental/Investigational,31,0,0
+CLM-10294,53,Other,Outpatient,K21.9,99215,Medicaid,Prior Authorization Missing,33,0,1
+CLM-10295,74,Male,Emergency,J45.909,99291,Private,Duplicate Claim,13,2,1
+CLM-10296,73,Male,Inpatient,C50.9,99283,Medicare,Coordination of Benefits,68,1,0
+CLM-10297,83,Male,Outpatient,J45.909,99291,Workers Comp,Provider Not in Network,11,2,0
+CLM-10298,73,Other,Emergency,K21.9,99213,Medicaid,Lack of Information,48,2,1
+CLM-10299,71,Female,Inpatient,G43.9,93000,Medicare,Non-Covered Service,81,1,1
+CLM-10300,70,Female,Inpatient,G43.9,71045,Medicare,Lack of Information,62,3,0
+CLM-10301,82,Male,Emergency,M54.5,93000,Medicaid,Provider Not in Network,37,1,1
+CLM-10302,37,Female,Inpatient,G43.9,71045,Medicare,Coordination of Benefits,116,0,0
+CLM-10303,18,Male,Inpatient,M54.5,99215,Medicare,Incorrect Coding,42,1,0
+CLM-10304,34,Male,Emergency,E11.9,99291,Medicare,Prior Authorization Missing,11,2,0
+CLM-10305,68,Female,Outpatient,M54.5,99213,Private,Duplicate Claim,72,0,0
+CLM-10306,71,Female,Emergency,I10,99291,Workers Comp,Duplicate Claim,64,1,0
+CLM-10307,45,Female,Inpatient,C50.9,99215,Medicare,Coordination of Benefits,77,1,0
+CLM-10308,65,Male,Emergency,Z95.1,93000,Medicaid,Incorrect Coding,19,2,0
+CLM-10309,37,Male,Emergency,C50.9,80053,Medicare,Prior Authorization Missing,4,2,1
+CLM-10310,81,Female,Inpatient,Z95.1,99291,Private,Lack of Information,52,2,1
+CLM-10311,40,Male,Emergency,J45.909,99291,Private,Duplicate Claim,89,0,1
+CLM-10312,19,Other,Emergency,G43.9,99214,Private,Provider Not in Network,7,1,1
+CLM-10313,53,Other,Inpatient,M54.5,99215,Medicare,Medical Necessity,117,0,0
+CLM-10314,75,Male,Emergency,Z95.1,80053,Private,Duplicate Claim,107,0,0
+CLM-10315,81,Female,Outpatient,K21.9,99213,Workers Comp,Medical Necessity,81,2,0
+CLM-10316,70,Male,Emergency,S62.0,93000,Medicaid,Medical Necessity,8,2,1
+CLM-10317,37,Female,Outpatient,S62.0,99291,Medicaid,Non-Covered Service,43,0,1
+CLM-10318,52,Male,Inpatient,J45.909,99291,Private,Incorrect Coding,86,2,0
+CLM-10319,39,Other,Emergency,I10,93000,Medicare,Experimental/Investigational,52,0,0
+CLM-10320,20,Male,Outpatient,Z95.1,99213,Workers Comp,Non-Covered Service,75,3,0
+CLM-10321,54,Male,Emergency,C50.9,99215,Workers Comp,Non-Covered Service,35,3,0
+CLM-10322,38,Other,Inpatient,K21.9,71045,Private,Coordination of Benefits,79,1,1
+CLM-10323,26,Male,Outpatient,K21.9,99215,Medicare,Timely Filing,16,0,0
+CLM-10324,76,Other,Outpatient,C50.9,99214,Medicare,Experimental/Investigational,116,3,0
+CLM-10325,68,Male,Outpatient,J45.909,80053,Private,Experimental/Investigational,86,2,0
+CLM-10326,58,Female,Emergency,M54.5,99283,Private,Timely Filing,63,3,0
+CLM-10327,44,Female,Outpatient,I10,80053,Private,Non-Covered Service,22,0,1
+CLM-10328,73,Male,Emergency,N18.3,99214,Private,Coordination of Benefits,92,1,1
+CLM-10329,37,Male,Emergency,C50.9,99283,Private,Prior Authorization Missing,26,0,0
+CLM-10330,72,Female,Inpatient,I10,99215,Medicare,Timely Filing,2,2,0
+CLM-10331,33,Male,Outpatient,N18.3,99213,Medicare,Non-Covered Service,59,1,1
+CLM-10332,30,Male,Emergency,N18.3,99214,Medicare,Incorrect Coding,42,3,0
+CLM-10333,62,Male,Outpatient,S62.0,99283,Medicare,Non-Covered Service,8,1,1
+CLM-10334,33,Male,Emergency,Z95.1,99213,Medicaid,Lack of Information,44,2,1
+CLM-10335,61,Female,Outpatient,I10,99283,Private,Incorrect Coding,106,0,1
+CLM-10336,24,Female,Outpatient,S62.0,99283,Medicaid,Lack of Information,30,3,1
+CLM-10337,61,Other,Emergency,E11.9,71045,Workers Comp,Duplicate Claim,101,3,0
+CLM-10338,42,Male,Emergency,I10,80053,Medicaid,Provider Not in Network,88,0,0
+CLM-10339,53,Female,Emergency,K21.9,99291,Medicare,Coordination of Benefits,110,1,0
+CLM-10340,30,Male,Outpatient,J45.909,99215,Workers Comp,Experimental/Investigational,90,2,1
+CLM-10341,70,Other,Emergency,C50.9,71045,Private,Non-Covered Service,54,0,1
+CLM-10342,53,Male,Inpatient,N18.3,99215,Medicare,Medical Necessity,7,1,1
+CLM-10343,77,Other,Outpatient,Z95.1,99291,Workers Comp,Coordination of Benefits,77,3,0
+CLM-10344,75,Female,Outpatient,C50.9,80053,Medicare,Prior Authorization Missing,87,3,0
+CLM-10345,62,Female,Inpatient,E11.9,99214,Medicaid,Lack of Information,69,2,1
+CLM-10346,65,Female,Inpatient,S62.0,99214,Medicaid,Non-Covered Service,67,0,0
+CLM-10347,20,Female,Outpatient,Z95.1,99283,Private,Prior Authorization Missing,35,1,1
+CLM-10348,59,Male,Outpatient,N18.3,99291,Private,Coordination of Benefits,69,1,1
+CLM-10349,57,Other,Inpatient,G43.9,99215,Medicare,Medical Necessity,113,0,0
+CLM-10350,57,Other,Outpatient,N18.3,99215,Medicaid,Duplicate Claim,62,0,0
+CLM-10351,31,Male,Emergency,Z95.1,99213,Private,Timely Filing,64,1,0
+CLM-10352,58,Male,Outpatient,M54.5,99291,Private,Duplicate Claim,7,2,0
+CLM-10353,20,Female,Inpatient,I10,99215,Medicaid,Lack of Information,40,2,1
+CLM-10354,68,Female,Outpatient,S62.0,99213,Workers Comp,Provider Not in Network,0,0,1
+CLM-10355,21,Female,Emergency,C50.9,99215,Medicare,Coordination of Benefits,13,0,1
+CLM-10356,54,Female,Outpatient,Z95.1,99283,Medicaid,Lack of Information,76,1,0
+CLM-10357,55,Other,Emergency,K21.9,99213,Medicaid,Incorrect Coding,107,1,1
+CLM-10358,30,Female,Outpatient,I10,99215,Medicaid,Coordination of Benefits,76,3,1
+CLM-10359,63,Female,Emergency,I10,93000,Workers Comp,Non-Covered Service,71,2,0
+CLM-10360,67,Other,Outpatient,C50.9,99291,Workers Comp,Timely Filing,77,3,0
+CLM-10361,68,Female,Inpatient,Z95.1,71045,Workers Comp,Prior Authorization Missing,105,2,0
+CLM-10362,54,Female,Outpatient,E11.9,99213,Workers Comp,Non-Covered Service,119,1,0
+CLM-10363,84,Female,Outpatient,M54.5,71045,Medicare,Non-Covered Service,90,1,1
+CLM-10364,72,Male,Emergency,M54.5,71045,Private,Timely Filing,50,0,1
+CLM-10365,30,Other,Emergency,G43.9,99291,Medicare,Duplicate Claim,93,3,1
+CLM-10366,80,Other,Emergency,I10,71045,Private,Coordination of Benefits,72,2,0
+CLM-10367,40,Male,Outpatient,M54.5,71045,Medicare,Timely Filing,53,1,0
+CLM-10368,61,Other,Inpatient,S62.0,71045,Private,Duplicate Claim,51,1,1
+CLM-10369,36,Male,Emergency,E11.9,99291,Workers Comp,Provider Not in Network,95,0,0
+CLM-10370,67,Other,Inpatient,K21.9,93000,Medicaid,Lack of Information,80,2,0
+CLM-10371,69,Female,Inpatient,M54.5,99214,Medicaid,Timely Filing,74,1,0
+CLM-10372,50,Other,Outpatient,C50.9,99213,Medicaid,Lack of Information,34,0,1
+CLM-10373,59,Female,Outpatient,Z95.1,93000,Private,Non-Covered Service,61,3,1
+CLM-10374,54,Male,Inpatient,C50.9,99283,Workers Comp,Experimental/Investigational,78,1,0
+CLM-10375,21,Other,Outpatient,K21.9,99215,Workers Comp,Coordination of Benefits,5,2,1
+CLM-10376,71,Female,Outpatient,J45.909,99283,Medicare,Medical Necessity,18,0,0
+CLM-10377,56,Female,Outpatient,I10,99283,Private,Prior Authorization Missing,115,3,1
+CLM-10378,22,Male,Inpatient,G43.9,99291,Private,Experimental/Investigational,69,0,0
+CLM-10379,80,Male,Emergency,G43.9,80053,Medicare,Coordination of Benefits,59,3,1
+CLM-10380,47,Female,Emergency,Z95.1,99214,Medicare,Lack of Information,70,3,1
+CLM-10381,75,Female,Outpatient,S62.0,99214,Private,Prior Authorization Missing,101,0,0
+CLM-10382,72,Other,Outpatient,C50.9,99283,Workers Comp,Experimental/Investigational,51,1,1
+CLM-10383,38,Male,Outpatient,S62.0,71045,Medicaid,Experimental/Investigational,13,2,0
+CLM-10384,68,Male,Inpatient,M54.5,99215,Private,Experimental/Investigational,104,0,1
+CLM-10385,74,Male,Outpatient,Z95.1,99283,Medicaid,Prior Authorization Missing,31,1,0
+CLM-10386,72,Male,Outpatient,M54.5,93000,Private,Non-Covered Service,36,3,1
+CLM-10387,31,Male,Outpatient,M54.5,71045,Medicare,Non-Covered Service,100,3,0
+CLM-10388,53,Other,Outpatient,K21.9,99213,Medicare,Provider Not in Network,109,1,0
+CLM-10389,49,Male,Inpatient,M54.5,99214,Medicare,Provider Not in Network,55,1,0
+CLM-10390,45,Male,Inpatient,M54.5,93000,Medicare,Timely Filing,1,3,1
+CLM-10391,85,Other,Emergency,E11.9,99214,Workers Comp,Prior Authorization Missing,69,1,1
+CLM-10392,49,Other,Emergency,G43.9,80053,Medicaid,Provider Not in Network,67,0,1
+CLM-10393,27,Female,Outpatient,J45.909,71045,Private,Medical Necessity,81,1,1
+CLM-10394,30,Male,Outpatient,K21.9,99283,Medicare,Coordination of Benefits,10,3,0
+CLM-10395,77,Male,Inpatient,G43.9,71045,Medicaid,Lack of Information,28,0,1
+CLM-10396,61,Female,Inpatient,E11.9,93000,Medicare,Duplicate Claim,47,1,0
+CLM-10397,83,Male,Emergency,K21.9,99215,Medicaid,Incorrect Coding,78,3,0
+CLM-10398,54,Male,Outpatient,Z95.1,71045,Private,Duplicate Claim,20,3,0
+CLM-10399,22,Male,Outpatient,N18.3,99283,Private,Provider Not in Network,24,0,1
+CLM-10400,35,Female,Outpatient,J45.909,99215,Workers Comp,Coordination of Benefits,1,0,1
+CLM-10401,35,Other,Outpatient,S62.0,99215,Workers Comp,Duplicate Claim,118,2,0
+CLM-10402,69,Other,Emergency,G43.9,80053,Medicaid,Incorrect Coding,16,0,1
+CLM-10403,52,Male,Outpatient,K21.9,93000,Workers Comp,Timely Filing,64,0,0
+CLM-10404,33,Other,Inpatient,E11.9,93000,Medicare,Incorrect Coding,9,3,1
+CLM-10405,72,Female,Inpatient,K21.9,99214,Medicare,Provider Not in Network,82,2,0
+CLM-10406,49,Other,Inpatient,N18.3,93000,Medicare,Lack of Information,85,0,0
+CLM-10407,46,Female,Emergency,S62.0,99213,Medicaid,Coordination of Benefits,87,1,1
+CLM-10408,53,Female,Outpatient,S62.0,99283,Private,Provider Not in Network,47,3,0
+CLM-10409,75,Female,Emergency,S62.0,99283,Private,Duplicate Claim,47,0,1
+CLM-10410,68,Male,Outpatient,C50.9,80053,Medicaid,Timely Filing,51,2,0
+CLM-10411,69,Female,Outpatient,G43.9,99291,Workers Comp,Prior Authorization Missing,10,2,1
+CLM-10412,45,Other,Emergency,S62.0,99213,Private,Prior Authorization Missing,83,1,1
+CLM-10413,26,Female,Emergency,G43.9,99291,Workers Comp,Lack of Information,112,1,0
+CLM-10414,50,Male,Inpatient,J45.909,99214,Medicare,Duplicate Claim,67,1,1
+CLM-10415,70,Male,Inpatient,Z95.1,71045,Workers Comp,Duplicate Claim,108,3,1
+CLM-10416,68,Female,Inpatient,N18.3,99291,Private,Timely Filing,54,2,1
+CLM-10417,45,Male,Inpatient,C50.9,99214,Private,Non-Covered Service,8,3,1
+CLM-10418,19,Female,Outpatient,K21.9,99213,Medicaid,Coordination of Benefits,115,2,0
+CLM-10419,37,Other,Emergency,S62.0,99283,Private,Coordination of Benefits,83,0,1
+CLM-10420,74,Female,Inpatient,E11.9,93000,Workers Comp,Experimental/Investigational,75,3,0
+CLM-10421,71,Other,Outpatient,J45.909,80053,Workers Comp,Prior Authorization Missing,117,1,0
+CLM-10422,55,Other,Inpatient,E11.9,99214,Medicare,Coordination of Benefits,75,1,0
+CLM-10423,37,Other,Emergency,Z95.1,93000,Private,Lack of Information,6,0,1
+CLM-10424,73,Other,Outpatient,N18.3,99215,Private,Duplicate Claim,11,1,1
+CLM-10425,36,Male,Outpatient,E11.9,71045,Workers Comp,Timely Filing,16,3,1
+CLM-10426,74,Female,Outpatient,C50.9,80053,Medicare,Incorrect Coding,39,3,0
+CLM-10427,43,Male,Outpatient,G43.9,99214,Workers Comp,Non-Covered Service,79,1,1
+CLM-10428,19,Male,Outpatient,S62.0,99214,Private,Lack of Information,8,3,1
+CLM-10429,35,Female,Emergency,G43.9,99291,Medicaid,Lack of Information,82,3,1
+CLM-10430,61,Female,Inpatient,E11.9,99291,Workers Comp,Lack of Information,113,0,0
+CLM-10431,34,Male,Emergency,J45.909,99214,Medicaid,Coordination of Benefits,79,0,0
+CLM-10432,69,Other,Emergency,N18.3,99283,Medicaid,Non-Covered Service,27,1,1
+CLM-10433,40,Male,Outpatient,Z95.1,99283,Workers Comp,Provider Not in Network,3,2,0
+CLM-10434,30,Other,Inpatient,Z95.1,99214,Private,Non-Covered Service,42,0,1
+CLM-10435,47,Male,Outpatient,N18.3,80053,Workers Comp,Provider Not in Network,66,0,0
+CLM-10436,61,Other,Emergency,Z95.1,99214,Medicaid,Coordination of Benefits,22,1,0
+CLM-10437,60,Male,Inpatient,N18.3,99214,Medicaid,Lack of Information,72,2,1
+CLM-10438,26,Male,Emergency,N18.3,80053,Medicare,Lack of Information,116,1,1
+CLM-10439,83,Female,Emergency,I10,99213,Workers Comp,Coordination of Benefits,21,3,1
+CLM-10440,77,Female,Outpatient,S62.0,99214,Medicaid,Experimental/Investigational,93,2,0
+CLM-10441,39,Female,Outpatient,Z95.1,93000,Medicaid,Medical Necessity,16,1,1
+CLM-10442,19,Female,Outpatient,S62.0,93000,Medicare,Prior Authorization Missing,77,1,1
+CLM-10443,77,Male,Inpatient,J45.909,99214,Medicaid,Provider Not in Network,36,2,0
+CLM-10444,27,Other,Outpatient,I10,80053,Private,Non-Covered Service,97,3,1
+CLM-10445,25,Female,Inpatient,C50.9,99215,Workers Comp,Non-Covered Service,68,1,0
+CLM-10446,78,Other,Emergency,E11.9,99214,Medicaid,Non-Covered Service,75,0,1
+CLM-10447,54,Other,Outpatient,J45.909,99213,Medicaid,Duplicate Claim,101,0,0
+CLM-10448,31,Other,Outpatient,S62.0,80053,Medicare,Coordination of Benefits,62,1,0
+CLM-10449,73,Male,Outpatient,S62.0,99214,Private,Timely Filing,8,0,1
+CLM-10450,85,Male,Inpatient,J45.909,99283,Workers Comp,Duplicate Claim,108,3,0
+CLM-10451,41,Male,Inpatient,S62.0,93000,Medicare,Coordination of Benefits,104,3,1
+CLM-10452,74,Female,Outpatient,K21.9,99213,Medicare,Lack of Information,66,0,1
+CLM-10453,40,Female,Outpatient,M54.5,71045,Medicare,Provider Not in Network,33,1,0
+CLM-10454,23,Male,Inpatient,G43.9,80053,Medicaid,Timely Filing,54,3,0
+CLM-10455,19,Other,Outpatient,M54.5,99215,Medicare,Duplicate Claim,32,1,0
+CLM-10456,47,Female,Inpatient,I10,99291,Workers Comp,Provider Not in Network,64,1,1
+CLM-10457,71,Female,Emergency,E11.9,99213,Workers Comp,Non-Covered Service,116,1,1
+CLM-10458,52,Female,Inpatient,G43.9,99214,Medicaid,Medical Necessity,49,3,0
+CLM-10459,55,Female,Emergency,J45.909,71045,Private,Provider Not in Network,108,0,1
+CLM-10460,49,Male,Inpatient,G43.9,99214,Workers Comp,Coordination of Benefits,48,2,1
+CLM-10461,78,Male,Inpatient,N18.3,93000,Private,Non-Covered Service,95,3,1
+CLM-10462,76,Other,Emergency,I10,93000,Medicaid,Experimental/Investigational,85,3,0
+CLM-10463,56,Female,Emergency,I10,99215,Medicare,Lack of Information,80,0,1
+CLM-10464,33,Male,Outpatient,K21.9,93000,Workers Comp,Medical Necessity,92,0,0
+CLM-10465,30,Male,Emergency,J45.909,93000,Medicaid,Provider Not in Network,118,0,0
+CLM-10466,22,Male,Emergency,S62.0,99215,Medicaid,Experimental/Investigational,87,0,1
+CLM-10467,78,Other,Emergency,K21.9,99283,Workers Comp,Duplicate Claim,82,2,0
+CLM-10468,77,Other,Outpatient,G43.9,93000,Medicare,Duplicate Claim,37,1,0
+CLM-10469,47,Other,Outpatient,K21.9,71045,Medicare,Prior Authorization Missing,53,3,0
+CLM-10470,78,Other,Outpatient,M54.5,80053,Private,Lack of Information,47,0,0
+CLM-10471,29,Male,Inpatient,K21.9,99215,Medicaid,Provider Not in Network,109,1,0
+CLM-10472,30,Female,Outpatient,C50.9,99283,Medicare,Incorrect Coding,71,1,0
+CLM-10473,84,Male,Outpatient,K21.9,71045,Private,Prior Authorization Missing,101,2,1
+CLM-10474,67,Other,Emergency,M54.5,71045,Private,Provider Not in Network,92,1,1
+CLM-10475,60,Male,Emergency,J45.909,71045,Private,Provider Not in Network,45,3,0
+CLM-10476,27,Other,Inpatient,J45.909,99215,Medicare,Provider Not in Network,105,0,1
+CLM-10477,52,Female,Inpatient,J45.909,71045,Workers Comp,Experimental/Investigational,62,0,0
+CLM-10478,55,Female,Outpatient,J45.909,99291,Medicaid,Lack of Information,2,0,1
+CLM-10479,49,Other,Outpatient,I10,99213,Workers Comp,Lack of Information,79,2,1
+CLM-10480,64,Other,Inpatient,N18.3,80053,Medicare,Experimental/Investigational,50,1,1
+CLM-10481,65,Other,Emergency,K21.9,99215,Medicare,Lack of Information,43,0,1
+CLM-10482,66,Other,Inpatient,Z95.1,99283,Medicare,Incorrect Coding,28,3,1
+CLM-10483,85,Female,Outpatient,Z95.1,93000,Medicare,Medical Necessity,93,1,1
+CLM-10484,43,Female,Emergency,N18.3,99214,Private,Non-Covered Service,52,1,1
+CLM-10485,54,Other,Emergency,N18.3,99291,Workers Comp,Provider Not in Network,39,0,0
+CLM-10486,45,Female,Emergency,C50.9,80053,Medicaid,Incorrect Coding,50,2,0
+CLM-10487,58,Male,Inpatient,J45.909,99215,Medicaid,Experimental/Investigational,114,1,1
+CLM-10488,19,Male,Inpatient,K21.9,99213,Private,Experimental/Investigational,84,0,0
+CLM-10489,84,Other,Emergency,E11.9,99291,Medicaid,Non-Covered Service,11,2,1
+CLM-10490,69,Female,Emergency,E11.9,93000,Workers Comp,Timely Filing,42,0,0
+CLM-10491,63,Female,Outpatient,G43.9,99213,Workers Comp,Medical Necessity,108,0,0
+CLM-10492,45,Female,Outpatient,I10,99283,Private,Non-Covered Service,99,0,0
+CLM-10493,42,Male,Outpatient,Z95.1,93000,Medicaid,Incorrect Coding,41,3,0
+CLM-10494,23,Female,Emergency,J45.909,99291,Private,Prior Authorization Missing,106,3,1
+CLM-10495,28,Other,Outpatient,N18.3,99291,Workers Comp,Medical Necessity,60,3,0
+CLM-10496,42,Male,Inpatient,G43.9,71045,Medicaid,Lack of Information,60,3,1
+CLM-10497,34,Female,Inpatient,E11.9,99283,Workers Comp,Coordination of Benefits,14,0,1
+CLM-10498,30,Female,Outpatient,K21.9,80053,Medicaid,Prior Authorization Missing,6,0,0
+CLM-10499,43,Female,Emergency,N18.3,80053,Medicare,Duplicate Claim,81,1,0
+CLM-10500,83,Other,Outpatient,C50.9,71045,Workers Comp,Provider Not in Network,93,2,0
+CLM-10501,59,Other,Emergency,Z95.1,99291,Medicare,Duplicate Claim,32,2,1
+CLM-10502,82,Other,Outpatient,I10,80053,Private,Lack of Information,22,0,1
+CLM-10503,62,Male,Emergency,N18.3,71045,Medicare,Timely Filing,43,0,0
+CLM-10504,83,Female,Emergency,Z95.1,93000,Private,Experimental/Investigational,82,0,0
+CLM-10505,43,Female,Outpatient,M54.5,99283,Medicaid,Lack of Information,93,2,1
+CLM-10506,35,Male,Emergency,J45.909,99215,Private,Experimental/Investigational,32,2,0
+CLM-10507,68,Male,Emergency,M54.5,80053,Workers Comp,Experimental/Investigational,118,2,0
+CLM-10508,74,Male,Inpatient,K21.9,99283,Workers Comp,Duplicate Claim,97,1,0
+CLM-10509,73,Other,Outpatient,I10,99215,Medicaid,Non-Covered Service,117,3,0
+CLM-10510,24,Male,Outpatient,Z95.1,80053,Medicaid,Non-Covered Service,20,2,1
+CLM-10511,55,Female,Emergency,J45.909,93000,Medicare,Provider Not in Network,25,3,1
+CLM-10512,82,Female,Inpatient,K21.9,93000,Private,Duplicate Claim,46,2,1
+CLM-10513,46,Other,Inpatient,G43.9,99283,Medicare,Coordination of Benefits,2,3,1
+CLM-10514,25,Other,Inpatient,E11.9,99213,Workers Comp,Medical Necessity,54,1,0
+CLM-10515,46,Male,Inpatient,E11.9,99214,Medicare,Coordination of Benefits,59,2,1
+CLM-10516,52,Female,Outpatient,J45.909,93000,Medicare,Duplicate Claim,89,0,0
+CLM-10517,47,Female,Outpatient,G43.9,93000,Medicare,Lack of Information,73,0,1
+CLM-10518,21,Female,Inpatient,J45.909,99291,Medicaid,Incorrect Coding,40,0,0
+CLM-10519,82,Female,Inpatient,C50.9,93000,Workers Comp,Non-Covered Service,5,2,1
+CLM-10520,56,Other,Emergency,K21.9,99283,Medicare,Coordination of Benefits,96,2,0
+CLM-10521,50,Male,Inpatient,M54.5,99283,Medicaid,Provider Not in Network,68,1,0
+CLM-10522,64,Female,Emergency,G43.9,99213,Workers Comp,Prior Authorization Missing,17,2,1
+CLM-10523,63,Female,Inpatient,K21.9,99213,Medicaid,Duplicate Claim,69,0,0
+CLM-10524,45,Female,Emergency,N18.3,99283,Workers Comp,Experimental/Investigational,105,2,1
+CLM-10525,63,Other,Inpatient,M54.5,99214,Medicare,Prior Authorization Missing,58,2,0
+CLM-10526,83,Female,Outpatient,N18.3,99215,Medicaid,Experimental/Investigational,117,2,1
+CLM-10527,40,Female,Emergency,N18.3,71045,Medicare,Lack of Information,91,3,0
+CLM-10528,36,Male,Emergency,M54.5,99215,Medicaid,Timely Filing,84,1,1
+CLM-10529,69,Other,Inpatient,C50.9,99283,Workers Comp,Lack of Information,91,0,1
+CLM-10530,54,Other,Inpatient,N18.3,99215,Private,Provider Not in Network,96,3,1
+CLM-10531,25,Other,Outpatient,K21.9,93000,Private,Medical Necessity,78,1,0
+CLM-10532,58,Female,Inpatient,M54.5,99291,Workers Comp,Timely Filing,76,0,0
+CLM-10533,50,Female,Outpatient,J45.909,99291,Medicare,Medical Necessity,106,1,0
+CLM-10534,26,Female,Emergency,I10,99213,Medicare,Duplicate Claim,115,2,1
+CLM-10535,79,Other,Outpatient,G43.9,71045,Medicaid,Provider Not in Network,22,2,1
+CLM-10536,31,Other,Inpatient,C50.9,99214,Medicaid,Provider Not in Network,102,2,1
+CLM-10537,37,Female,Outpatient,J45.909,93000,Private,Coordination of Benefits,30,0,0
+CLM-10538,85,Female,Outpatient,N18.3,99213,Medicare,Medical Necessity,99,2,1
+CLM-10539,45,Male,Emergency,Z95.1,99213,Medicaid,Coordination of Benefits,85,0,0
+CLM-10540,27,Female,Inpatient,G43.9,99213,Private,Medical Necessity,75,2,1
+CLM-10541,51,Female,Emergency,G43.9,99214,Workers Comp,Provider Not in Network,32,1,1
+CLM-10542,61,Male,Emergency,N18.3,99291,Private,Medical Necessity,57,1,1
+CLM-10543,73,Other,Outpatient,G43.9,99214,Medicaid,Experimental/Investigational,90,1,1
+CLM-10544,63,Male,Inpatient,S62.0,99213,Private,Lack of Information,4,1,1
+CLM-10545,65,Female,Inpatient,Z95.1,99213,Private,Incorrect Coding,118,1,0
+CLM-10546,55,Female,Outpatient,G43.9,99214,Medicaid,Experimental/Investigational,72,2,0
+CLM-10547,18,Male,Outpatient,Z95.1,99214,Private,Duplicate Claim,56,2,0
+CLM-10548,74,Other,Inpatient,E11.9,99283,Workers Comp,Experimental/Investigational,22,0,1
+CLM-10549,60,Female,Outpatient,K21.9,99213,Medicaid,Provider Not in Network,44,1,1
+CLM-10550,84,Female,Outpatient,C50.9,93000,Medicaid,Lack of Information,14,3,1
+CLM-10551,57,Male,Inpatient,I10,99283,Medicare,Non-Covered Service,81,1,1
+CLM-10552,83,Other,Outpatient,M54.5,80053,Medicaid,Coordination of Benefits,38,2,0
+CLM-10553,65,Male,Inpatient,M54.5,93000,Workers Comp,Medical Necessity,7,3,1
+CLM-10554,40,Other,Outpatient,G43.9,93000,Workers Comp,Non-Covered Service,5,3,1
+CLM-10555,65,Male,Emergency,I10,93000,Workers Comp,Incorrect Coding,20,2,1
+CLM-10556,52,Male,Inpatient,J45.909,71045,Workers Comp,Incorrect Coding,73,2,1
+CLM-10557,81,Male,Emergency,I10,99215,Workers Comp,Experimental/Investigational,75,1,0
+CLM-10558,77,Female,Outpatient,E11.9,99283,Medicare,Provider Not in Network,0,3,1
+CLM-10559,59,Male,Emergency,M54.5,99215,Workers Comp,Duplicate Claim,59,3,0
+CLM-10560,50,Female,Inpatient,S62.0,93000,Medicaid,Non-Covered Service,104,0,0
+CLM-10561,31,Female,Outpatient,C50.9,99214,Workers Comp,Lack of Information,108,2,1
+CLM-10562,19,Other,Emergency,I10,99214,Private,Provider Not in Network,86,0,1
+CLM-10563,35,Male,Emergency,Z95.1,71045,Private,Provider Not in Network,75,1,0
+CLM-10564,55,Other,Emergency,S62.0,99213,Private,Coordination of Benefits,91,3,1
+CLM-10565,27,Other,Emergency,N18.3,99283,Medicaid,Prior Authorization Missing,115,0,1
+CLM-10566,81,Male,Outpatient,J45.909,99283,Medicare,Prior Authorization Missing,42,0,1
+CLM-10567,45,Male,Emergency,E11.9,93000,Medicare,Prior Authorization Missing,23,0,0
+CLM-10568,51,Male,Inpatient,K21.9,99283,Medicaid,Timely Filing,106,0,0
+CLM-10569,34,Female,Inpatient,I10,93000,Medicaid,Experimental/Investigational,81,2,0
+CLM-10570,76,Male,Inpatient,E11.9,80053,Medicaid,Timely Filing,3,2,0
+CLM-10571,84,Male,Outpatient,K21.9,93000,Medicaid,Lack of Information,76,0,1
+CLM-10572,71,Male,Inpatient,S62.0,99213,Medicaid,Lack of Information,1,1,1
+CLM-10573,67,Male,Outpatient,G43.9,71045,Medicaid,Coordination of Benefits,78,3,0
+CLM-10574,64,Other,Inpatient,M54.5,99283,Workers Comp,Experimental/Investigational,97,3,1
+CLM-10575,52,Other,Outpatient,K21.9,93000,Medicare,Timely Filing,60,2,0
+CLM-10576,84,Male,Outpatient,N18.3,71045,Private,Coordination of Benefits,117,3,0
+CLM-10577,81,Male,Inpatient,J45.909,99215,Workers Comp,Experimental/Investigational,22,1,1
+CLM-10578,34,Female,Emergency,K21.9,99214,Workers Comp,Experimental/Investigational,111,3,0
+CLM-10579,33,Other,Inpatient,N18.3,99283,Private,Prior Authorization Missing,104,2,1
+CLM-10580,83,Male,Outpatient,J45.909,99215,Workers Comp,Coordination of Benefits,52,0,0
+CLM-10581,23,Female,Outpatient,S62.0,99283,Private,Duplicate Claim,5,3,1
+CLM-10582,42,Male,Emergency,M54.5,99291,Medicaid,Prior Authorization Missing,57,3,1
+CLM-10583,82,Male,Outpatient,Z95.1,99215,Private,Provider Not in Network,15,2,1
+CLM-10584,50,Male,Inpatient,C50.9,99215,Workers Comp,Timely Filing,94,2,0
+CLM-10585,38,Other,Outpatient,C50.9,99291,Private,Duplicate Claim,18,3,1
+CLM-10586,45,Female,Inpatient,K21.9,99291,Medicaid,Provider Not in Network,58,2,0
+CLM-10587,54,Other,Outpatient,E11.9,80053,Medicaid,Timely Filing,6,0,0
+CLM-10588,44,Female,Inpatient,I10,99283,Medicaid,Lack of Information,79,0,1
+CLM-10589,84,Other,Inpatient,K21.9,99214,Medicaid,Lack of Information,48,1,1
+CLM-10590,74,Female,Outpatient,J45.909,71045,Medicaid,Experimental/Investigational,86,3,1
+CLM-10591,50,Female,Inpatient,N18.3,99213,Medicaid,Non-Covered Service,54,0,1
+CLM-10592,74,Female,Emergency,S62.0,93000,Medicare,Duplicate Claim,107,1,0
+CLM-10593,79,Other,Emergency,I10,80053,Workers Comp,Experimental/Investigational,115,0,1
+CLM-10594,58,Other,Outpatient,M54.5,80053,Private,Duplicate Claim,92,0,0
+CLM-10595,59,Female,Inpatient,J45.909,93000,Workers Comp,Medical Necessity,74,2,0
+CLM-10596,46,Female,Inpatient,I10,80053,Private,Duplicate Claim,109,0,1
+CLM-10597,71,Male,Emergency,Z95.1,93000,Private,Medical Necessity,28,3,1
+CLM-10598,54,Female,Inpatient,M54.5,71045,Medicaid,Incorrect Coding,3,1,0
+CLM-10599,70,Male,Emergency,S62.0,71045,Medicaid,Coordination of Benefits,16,1,0
+CLM-10600,73,Other,Outpatient,I10,71045,Medicaid,Lack of Information,21,3,1
+CLM-10601,44,Male,Emergency,J45.909,99283,Medicaid,Provider Not in Network,53,0,1
+CLM-10602,46,Male,Outpatient,J45.909,99213,Workers Comp,Medical Necessity,54,1,1
+CLM-10603,47,Male,Emergency,E11.9,99291,Medicare,Medical Necessity,90,0,0
+CLM-10604,80,Male,Outpatient,N18.3,99291,Medicare,Coordination of Benefits,100,2,0
+CLM-10605,26,Other,Emergency,K21.9,80053,Workers Comp,Non-Covered Service,69,3,0
+CLM-10606,49,Female,Inpatient,C50.9,80053,Private,Coordination of Benefits,95,1,0
+CLM-10607,42,Other,Outpatient,S62.0,99214,Medicare,Provider Not in Network,59,1,0
+CLM-10608,41,Female,Emergency,G43.9,99214,Workers Comp,Incorrect Coding,7,1,1
+CLM-10609,41,Female,Emergency,Z95.1,99214,Medicaid,Prior Authorization Missing,112,1,0
+CLM-10610,80,Female,Outpatient,I10,99213,Medicaid,Medical Necessity,19,3,1
+CLM-10611,68,Male,Inpatient,C50.9,99214,Private,Experimental/Investigational,87,2,0
+CLM-10612,42,Female,Inpatient,K21.9,99283,Private,Provider Not in Network,65,1,1
+CLM-10613,30,Other,Outpatient,Z95.1,93000,Medicare,Prior Authorization Missing,54,0,0
+CLM-10614,24,Other,Outpatient,M54.5,93000,Medicaid,Lack of Information,62,2,1
+CLM-10615,57,Male,Emergency,K21.9,99213,Private,Coordination of Benefits,84,3,0
+CLM-10616,63,Male,Inpatient,C50.9,71045,Private,Coordination of Benefits,10,0,1
+CLM-10617,28,Other,Outpatient,Z95.1,99215,Medicaid,Timely Filing,102,2,0
+CLM-10618,53,Male,Outpatient,C50.9,99215,Private,Experimental/Investigational,119,1,1
+CLM-10619,64,Male,Emergency,J45.909,99214,Medicare,Incorrect Coding,48,1,0
+CLM-10620,41,Other,Emergency,I10,99291,Workers Comp,Lack of Information,106,2,1
+CLM-10621,65,Female,Outpatient,G43.9,99283,Medicaid,Duplicate Claim,103,0,1
+CLM-10622,70,Male,Outpatient,G43.9,99291,Private,Non-Covered Service,67,3,0
+CLM-10623,48,Female,Outpatient,J45.909,71045,Workers Comp,Lack of Information,74,0,1
+CLM-10624,26,Male,Emergency,G43.9,99283,Private,Lack of Information,41,3,1
+CLM-10625,75,Female,Inpatient,G43.9,99283,Medicare,Experimental/Investigational,41,0,0
+CLM-10626,27,Male,Emergency,C50.9,80053,Medicaid,Duplicate Claim,104,2,1
+CLM-10627,54,Other,Emergency,N18.3,93000,Medicare,Coordination of Benefits,11,2,1
+CLM-10628,71,Other,Inpatient,G43.9,71045,Medicare,Prior Authorization Missing,44,0,1
+CLM-10629,42,Male,Outpatient,C50.9,99213,Medicaid,Medical Necessity,38,1,1
+CLM-10630,37,Male,Outpatient,C50.9,99215,Medicaid,Coordination of Benefits,27,1,1
+CLM-10631,23,Other,Outpatient,Z95.1,80053,Private,Duplicate Claim,83,1,1
+CLM-10632,61,Other,Outpatient,G43.9,99213,Medicare,Provider Not in Network,26,1,0
+CLM-10633,49,Female,Emergency,M54.5,71045,Workers Comp,Prior Authorization Missing,113,3,0
+CLM-10634,64,Other,Outpatient,M54.5,99213,Private,Provider Not in Network,118,3,1
+CLM-10635,31,Other,Inpatient,Z95.1,71045,Medicare,Timely Filing,44,3,0
+CLM-10636,66,Other,Emergency,K21.9,71045,Medicaid,Medical Necessity,22,2,0
+CLM-10637,84,Male,Emergency,M54.5,80053,Medicare,Coordination of Benefits,30,2,0
+CLM-10638,50,Female,Inpatient,E11.9,93000,Medicaid,Incorrect Coding,78,0,0
+CLM-10639,24,Other,Outpatient,S62.0,99291,Medicaid,Provider Not in Network,72,1,0
+CLM-10640,54,Other,Inpatient,G43.9,99213,Private,Coordination of Benefits,101,2,1
+CLM-10641,54,Female,Outpatient,S62.0,80053,Private,Experimental/Investigational,116,2,1
+CLM-10642,38,Male,Inpatient,J45.909,99214,Private,Coordination of Benefits,49,1,1
+CLM-10643,22,Other,Emergency,S62.0,99214,Private,Duplicate Claim,83,0,1
+CLM-10644,32,Female,Inpatient,M54.5,99213,Private,Provider Not in Network,118,2,1
+CLM-10645,29,Male,Emergency,C50.9,71045,Private,Timely Filing,57,0,1
+CLM-10646,77,Female,Outpatient,C50.9,99215,Medicaid,Experimental/Investigational,91,0,0
+CLM-10647,77,Female,Outpatient,Z95.1,99291,Medicaid,Provider Not in Network,107,2,0
+CLM-10648,31,Female,Emergency,N18.3,99214,Medicare,Incorrect Coding,70,1,0
+CLM-10649,38,Male,Emergency,M54.5,99214,Medicare,Medical Necessity,42,0,0
+CLM-10650,36,Female,Emergency,Z95.1,99283,Medicaid,Prior Authorization Missing,47,0,0
+CLM-10651,70,Other,Outpatient,E11.9,99215,Workers Comp,Coordination of Benefits,94,0,0
+CLM-10652,54,Female,Inpatient,G43.9,71045,Workers Comp,Medical Necessity,39,2,1
+CLM-10653,59,Other,Inpatient,I10,99214,Workers Comp,Experimental/Investigational,102,3,0
+CLM-10654,53,Other,Outpatient,J45.909,71045,Workers Comp,Lack of Information,75,0,0
+CLM-10655,30,Male,Outpatient,C50.9,99213,Medicaid,Prior Authorization Missing,68,1,0
+CLM-10656,29,Female,Emergency,N18.3,99283,Private,Coordination of Benefits,11,1,1
+CLM-10657,53,Other,Inpatient,G43.9,99214,Workers Comp,Incorrect Coding,79,2,0
+CLM-10658,65,Other,Outpatient,S62.0,99214,Medicaid,Non-Covered Service,115,3,0
+CLM-10659,80,Female,Outpatient,K21.9,93000,Private,Lack of Information,12,3,1
+CLM-10660,19,Male,Emergency,N18.3,80053,Private,Incorrect Coding,92,3,0
+CLM-10661,25,Male,Inpatient,J45.909,99214,Private,Duplicate Claim,15,1,0
+CLM-10662,75,Other,Inpatient,J45.909,99214,Medicare,Provider Not in Network,103,0,1
+CLM-10663,77,Other,Outpatient,I10,71045,Workers Comp,Timely Filing,110,0,0
+CLM-10664,40,Male,Outpatient,I10,99213,Medicare,Duplicate Claim,117,2,1
+CLM-10665,34,Other,Emergency,C50.9,99291,Private,Lack of Information,29,3,1
+CLM-10666,64,Other,Outpatient,N18.3,99214,Private,Incorrect Coding,117,1,0
+CLM-10667,18,Other,Emergency,M54.5,99214,Private,Lack of Information,96,1,1
+CLM-10668,54,Male,Emergency,E11.9,71045,Workers Comp,Provider Not in Network,30,1,1
+CLM-10669,63,Other,Emergency,Z95.1,71045,Medicare,Coordination of Benefits,24,2,0
+CLM-10670,25,Female,Outpatient,C50.9,99214,Workers Comp,Incorrect Coding,74,1,1
+CLM-10671,22,Other,Inpatient,C50.9,71045,Medicare,Provider Not in Network,106,1,0
+CLM-10672,36,Female,Outpatient,Z95.1,93000,Workers Comp,Non-Covered Service,14,0,1
+CLM-10673,59,Female,Outpatient,C50.9,99291,Medicare,Duplicate Claim,29,2,1
+CLM-10674,52,Male,Inpatient,I10,93000,Medicaid,Non-Covered Service,117,1,1
+CLM-10675,81,Female,Outpatient,M54.5,99283,Medicaid,Provider Not in Network,66,2,0
+CLM-10676,56,Female,Emergency,K21.9,80053,Medicare,Duplicate Claim,0,3,1
+CLM-10677,43,Female,Emergency,N18.3,71045,Medicare,Timely Filing,119,0,1
+CLM-10678,32,Other,Emergency,E11.9,99214,Workers Comp,Duplicate Claim,66,1,0
+CLM-10679,39,Male,Inpatient,C50.9,71045,Workers Comp,Duplicate Claim,99,0,1
+CLM-10680,52,Other,Inpatient,C50.9,80053,Private,Incorrect Coding,43,0,1
+CLM-10681,31,Female,Inpatient,E11.9,99283,Private,Experimental/Investigational,65,0,0
+CLM-10682,32,Female,Inpatient,N18.3,93000,Medicare,Non-Covered Service,63,0,1
+CLM-10683,72,Male,Emergency,I10,99291,Workers Comp,Duplicate Claim,100,0,0
+CLM-10684,49,Other,Outpatient,M54.5,99283,Private,Duplicate Claim,79,1,0
+CLM-10685,84,Other,Emergency,G43.9,99213,Workers Comp,Incorrect Coding,27,3,1
+CLM-10686,58,Female,Inpatient,M54.5,93000,Workers Comp,Provider Not in Network,59,2,0
+CLM-10687,73,Female,Emergency,C50.9,80053,Medicaid,Duplicate Claim,19,1,0
+CLM-10688,42,Female,Emergency,K21.9,99291,Workers Comp,Experimental/Investigational,70,0,1
+CLM-10689,81,Other,Inpatient,S62.0,99214,Medicare,Prior Authorization Missing,79,3,0
+CLM-10690,81,Other,Inpatient,S62.0,99291,Medicare,Non-Covered Service,102,3,1
+CLM-10691,36,Female,Emergency,I10,99215,Private,Medical Necessity,56,3,1
+CLM-10692,82,Male,Emergency,J45.909,71045,Workers Comp,Experimental/Investigational,33,3,0
+CLM-10693,42,Female,Inpatient,N18.3,71045,Workers Comp,Incorrect Coding,74,0,0
+CLM-10694,24,Female,Inpatient,M54.5,99215,Private,Experimental/Investigational,107,3,1
+CLM-10695,26,Male,Inpatient,Z95.1,80053,Medicare,Lack of Information,109,2,0
+CLM-10696,49,Male,Outpatient,I10,99283,Private,Timely Filing,88,3,0
+CLM-10697,31,Male,Outpatient,I10,99291,Medicaid,Coordination of Benefits,27,2,1
+CLM-10698,26,Male,Outpatient,Z95.1,71045,Medicare,Coordination of Benefits,29,0,0
+CLM-10699,53,Male,Outpatient,N18.3,71045,Medicaid,Incorrect Coding,90,2,1
+CLM-10700,57,Male,Outpatient,Z95.1,99214,Private,Duplicate Claim,93,0,1
+CLM-10701,82,Female,Inpatient,K21.9,93000,Medicaid,Incorrect Coding,72,1,1
+CLM-10702,85,Female,Emergency,K21.9,99291,Workers Comp,Prior Authorization Missing,0,1,1
+CLM-10703,23,Male,Outpatient,N18.3,71045,Private,Lack of Information,84,0,0
+CLM-10704,60,Male,Outpatient,N18.3,93000,Medicare,Provider Not in Network,23,1,1
+CLM-10705,46,Female,Inpatient,M54.5,99214,Workers Comp,Coordination of Benefits,106,2,0
+CLM-10706,22,Male,Emergency,N18.3,99291,Workers Comp,Provider Not in Network,22,1,1
+CLM-10707,44,Other,Outpatient,J45.909,99283,Medicare,Duplicate Claim,115,2,0
+CLM-10708,48,Female,Inpatient,K21.9,99215,Private,Incorrect Coding,5,3,1
+CLM-10709,21,Other,Outpatient,J45.909,99283,Medicaid,Medical Necessity,62,2,0
+CLM-10710,30,Female,Outpatient,K21.9,99291,Medicaid,Timely Filing,40,1,0
+CLM-10711,31,Other,Outpatient,Z95.1,99214,Workers Comp,Experimental/Investigational,17,3,1
+CLM-10712,46,Other,Inpatient,G43.9,71045,Private,Prior Authorization Missing,33,1,1
+CLM-10713,26,Male,Emergency,E11.9,99291,Medicaid,Lack of Information,100,3,1
+CLM-10714,22,Other,Outpatient,M54.5,80053,Workers Comp,Provider Not in Network,45,2,0
+CLM-10715,39,Male,Emergency,N18.3,99283,Medicaid,Timely Filing,64,2,0
+CLM-10716,81,Male,Outpatient,G43.9,80053,Medicare,Timely Filing,42,2,0
+CLM-10717,48,Other,Inpatient,K21.9,80053,Private,Non-Covered Service,88,3,0
+CLM-10718,57,Female,Inpatient,Z95.1,99215,Medicare,Provider Not in Network,58,3,1
+CLM-10719,39,Male,Emergency,M54.5,99215,Medicaid,Duplicate Claim,33,1,0
+CLM-10720,35,Other,Emergency,N18.3,93000,Medicaid,Medical Necessity,79,0,1
+CLM-10721,66,Female,Emergency,G43.9,99283,Workers Comp,Experimental/Investigational,48,1,1
+CLM-10722,36,Male,Emergency,G43.9,99283,Medicaid,Prior Authorization Missing,42,3,1
+CLM-10723,40,Other,Inpatient,I10,99213,Workers Comp,Lack of Information,93,2,1
+CLM-10724,62,Male,Inpatient,S62.0,99214,Private,Lack of Information,21,3,1
+CLM-10725,45,Male,Outpatient,N18.3,93000,Workers Comp,Experimental/Investigational,104,0,1
+CLM-10726,40,Male,Inpatient,S62.0,99283,Medicare,Prior Authorization Missing,54,1,0
+CLM-10727,41,Other,Outpatient,G43.9,80053,Medicare,Duplicate Claim,63,2,0
+CLM-10728,50,Male,Outpatient,Z95.1,99283,Medicare,Non-Covered Service,11,3,1
+CLM-10729,19,Female,Outpatient,N18.3,71045,Medicare,Coordination of Benefits,114,2,0
+CLM-10730,60,Female,Emergency,C50.9,71045,Medicaid,Duplicate Claim,49,3,1
+CLM-10731,38,Other,Inpatient,S62.0,99291,Medicaid,Incorrect Coding,60,3,0
+CLM-10732,47,Other,Inpatient,K21.9,99283,Private,Timely Filing,86,0,0
+CLM-10733,82,Other,Emergency,C50.9,99291,Medicaid,Coordination of Benefits,34,1,1
+CLM-10734,51,Male,Inpatient,I10,99213,Workers Comp,Coordination of Benefits,109,1,0
+CLM-10735,64,Male,Outpatient,E11.9,99283,Private,Incorrect Coding,105,2,0
+CLM-10736,62,Female,Outpatient,C50.9,99215,Private,Incorrect Coding,87,3,1
+CLM-10737,72,Other,Outpatient,K21.9,99215,Workers Comp,Incorrect Coding,109,3,1
+CLM-10738,66,Male,Emergency,G43.9,99215,Workers Comp,Incorrect Coding,38,2,0
+CLM-10739,63,Other,Emergency,S62.0,99215,Medicaid,Lack of Information,53,1,1
+CLM-10740,81,Female,Outpatient,Z95.1,99291,Medicare,Prior Authorization Missing,35,2,0
+CLM-10741,56,Other,Inpatient,E11.9,99291,Medicaid,Prior Authorization Missing,70,2,1
+CLM-10742,73,Male,Outpatient,J45.909,99291,Medicare,Lack of Information,28,1,1
+CLM-10743,28,Female,Emergency,Z95.1,99213,Private,Incorrect Coding,11,2,1
+CLM-10744,26,Female,Inpatient,C50.9,99283,Medicare,Medical Necessity,83,2,1
+CLM-10745,72,Other,Inpatient,J45.909,99291,Medicare,Duplicate Claim,105,1,0
+CLM-10746,80,Other,Outpatient,Z95.1,93000,Medicare,Experimental/Investigational,54,0,0
+CLM-10747,21,Female,Inpatient,C50.9,99214,Medicaid,Incorrect Coding,107,3,0
+CLM-10748,79,Female,Emergency,N18.3,99215,Medicare,Lack of Information,52,3,1
+CLM-10749,64,Male,Inpatient,J45.909,99214,Medicare,Duplicate Claim,54,3,0
+CLM-10750,74,Male,Emergency,K21.9,99214,Workers Comp,Timely Filing,1,0,1
+CLM-10751,82,Female,Inpatient,C50.9,80053,Workers Comp,Duplicate Claim,7,1,1
+CLM-10752,32,Male,Outpatient,J45.909,99215,Medicare,Lack of Information,40,3,1
+CLM-10753,62,Female,Inpatient,K21.9,99213,Medicaid,Timely Filing,87,0,0
+CLM-10754,67,Male,Emergency,M54.5,99213,Medicaid,Experimental/Investigational,17,1,1
+CLM-10755,73,Female,Outpatient,I10,93000,Medicaid,Timely Filing,109,3,0
+CLM-10756,50,Other,Inpatient,I10,99215,Private,Incorrect Coding,52,2,0
+CLM-10757,63,Other,Inpatient,G43.9,93000,Workers Comp,Provider Not in Network,77,3,0
+CLM-10758,44,Female,Emergency,M54.5,99215,Private,Lack of Information,5,3,1
+CLM-10759,29,Other,Inpatient,C50.9,99214,Private,Timely Filing,72,2,0
+CLM-10760,57,Female,Inpatient,M54.5,99214,Medicaid,Coordination of Benefits,11,0,1
+CLM-10761,76,Other,Inpatient,G43.9,99213,Medicaid,Provider Not in Network,17,0,0
+CLM-10762,73,Male,Inpatient,N18.3,80053,Medicaid,Duplicate Claim,115,1,0
+CLM-10763,73,Other,Inpatient,C50.9,99214,Workers Comp,Incorrect Coding,60,0,1
+CLM-10764,20,Male,Outpatient,M54.5,71045,Workers Comp,Coordination of Benefits,32,3,0
+CLM-10765,58,Female,Inpatient,E11.9,99213,Medicaid,Medical Necessity,32,2,1
+CLM-10766,72,Male,Inpatient,G43.9,99214,Workers Comp,Provider Not in Network,3,2,1
+CLM-10767,66,Other,Emergency,N18.3,99291,Private,Experimental/Investigational,44,1,0
+CLM-10768,28,Female,Emergency,G43.9,99214,Workers Comp,Incorrect Coding,59,1,0
+CLM-10769,40,Other,Outpatient,I10,99214,Medicaid,Prior Authorization Missing,47,0,1
+CLM-10770,50,Female,Outpatient,K21.9,80053,Private,Provider Not in Network,29,1,1
+CLM-10771,38,Female,Inpatient,N18.3,99213,Medicaid,Provider Not in Network,7,1,1
+CLM-10772,84,Female,Emergency,J45.909,99283,Medicaid,Prior Authorization Missing,13,3,1
+CLM-10773,48,Female,Outpatient,G43.9,71045,Private,Coordination of Benefits,90,3,0
+CLM-10774,67,Other,Outpatient,M54.5,99214,Workers Comp,Prior Authorization Missing,55,0,1
+CLM-10775,75,Female,Emergency,M54.5,93000,Workers Comp,Experimental/Investigational,100,3,1
+CLM-10776,41,Other,Outpatient,G43.9,99213,Medicaid,Provider Not in Network,11,2,1
+CLM-10777,68,Male,Emergency,K21.9,99215,Medicaid,Prior Authorization Missing,8,3,0
+CLM-10778,52,Other,Inpatient,S62.0,99213,Private,Lack of Information,115,3,1
+CLM-10779,64,Male,Inpatient,G43.9,99283,Workers Comp,Incorrect Coding,0,1,1
+CLM-10780,75,Female,Emergency,J45.909,99213,Private,Lack of Information,78,3,1
+CLM-10781,80,Female,Emergency,S62.0,71045,Workers Comp,Non-Covered Service,118,2,0
+CLM-10782,43,Other,Outpatient,C50.9,93000,Workers Comp,Non-Covered Service,53,0,0
+CLM-10783,41,Female,Emergency,I10,99214,Private,Medical Necessity,112,2,1
+CLM-10784,43,Other,Inpatient,S62.0,93000,Workers Comp,Lack of Information,18,0,1
+CLM-10785,72,Male,Outpatient,E11.9,80053,Medicaid,Lack of Information,55,2,1
+CLM-10786,20,Female,Inpatient,J45.909,93000,Workers Comp,Experimental/Investigational,36,2,0
+CLM-10787,26,Other,Emergency,E11.9,71045,Workers Comp,Prior Authorization Missing,28,1,1
+CLM-10788,19,Female,Emergency,K21.9,93000,Workers Comp,Lack of Information,116,3,1
+CLM-10789,79,Male,Inpatient,C50.9,99214,Workers Comp,Non-Covered Service,95,3,1
+CLM-10790,80,Female,Outpatient,N18.3,99215,Private,Provider Not in Network,107,0,0
+CLM-10791,85,Male,Inpatient,G43.9,71045,Workers Comp,Lack of Information,82,1,1
+CLM-10792,43,Other,Outpatient,G43.9,99213,Medicare,Prior Authorization Missing,64,1,1
+CLM-10793,21,Male,Outpatient,E11.9,80053,Medicare,Non-Covered Service,80,0,0
+CLM-10794,30,Female,Emergency,E11.9,99215,Medicare,Medical Necessity,47,1,0
+CLM-10795,35,Female,Inpatient,C50.9,99214,Private,Duplicate Claim,90,3,1
+CLM-10796,54,Male,Outpatient,M54.5,99213,Workers Comp,Timely Filing,33,3,0
+CLM-10797,71,Female,Inpatient,C50.9,99291,Medicare,Experimental/Investigational,85,1,1
+CLM-10798,46,Female,Outpatient,C50.9,99214,Medicare,Non-Covered Service,107,2,0
+CLM-10799,60,Other,Outpatient,S62.0,99215,Medicaid,Non-Covered Service,79,1,1
+CLM-10800,21,Female,Inpatient,E11.9,80053,Medicaid,Incorrect Coding,5,2,1
+CLM-10801,73,Male,Emergency,M54.5,71045,Medicare,Prior Authorization Missing,116,0,1
+CLM-10802,51,Other,Outpatient,G43.9,99291,Medicaid,Timely Filing,51,2,0
+CLM-10803,79,Male,Outpatient,Z95.1,99214,Medicaid,Lack of Information,94,1,1
+CLM-10804,25,Female,Emergency,K21.9,99213,Medicaid,Coordination of Benefits,85,3,0
+CLM-10805,85,Other,Outpatient,C50.9,99291,Medicaid,Lack of Information,30,0,0
+CLM-10806,23,Female,Inpatient,Z95.1,99213,Medicare,Duplicate Claim,52,1,1
+CLM-10807,25,Male,Outpatient,S62.0,99213,Workers Comp,Provider Not in Network,93,1,0
+CLM-10808,75,Male,Inpatient,K21.9,99213,Workers Comp,Experimental/Investigational,103,1,1
+CLM-10809,51,Other,Emergency,S62.0,99213,Medicaid,Provider Not in Network,73,2,0
+CLM-10810,48,Other,Emergency,J45.909,99213,Private,Prior Authorization Missing,97,1,0
+CLM-10811,26,Male,Outpatient,G43.9,99213,Workers Comp,Coordination of Benefits,42,0,0
+CLM-10812,59,Female,Emergency,C50.9,99213,Workers Comp,Experimental/Investigational,90,0,0
+CLM-10813,37,Female,Inpatient,J45.909,93000,Medicare,Coordination of Benefits,21,3,0
+CLM-10814,50,Other,Inpatient,S62.0,99283,Private,Timely Filing,83,3,0
+CLM-10815,83,Female,Inpatient,E11.9,99283,Private,Provider Not in Network,66,3,1
+CLM-10816,53,Other,Inpatient,C50.9,80053,Medicaid,Medical Necessity,58,3,1
+CLM-10817,32,Male,Outpatient,M54.5,99291,Medicaid,Prior Authorization Missing,95,0,0
+CLM-10818,68,Other,Inpatient,C50.9,93000,Medicaid,Non-Covered Service,36,0,0
+CLM-10819,71,Other,Emergency,J45.909,71045,Private,Coordination of Benefits,87,2,1
+CLM-10820,48,Male,Inpatient,K21.9,99214,Medicaid,Experimental/Investigational,68,1,1
+CLM-10821,41,Female,Inpatient,E11.9,99283,Workers Comp,Medical Necessity,57,1,0
+CLM-10822,83,Male,Emergency,C50.9,99215,Medicare,Duplicate Claim,68,0,0
+CLM-10823,80,Other,Outpatient,I10,99214,Medicare,Prior Authorization Missing,9,1,1
+CLM-10824,57,Male,Outpatient,I10,99214,Private,Coordination of Benefits,79,2,1
+CLM-10825,28,Female,Outpatient,I10,80053,Workers Comp,Duplicate Claim,116,2,0
+CLM-10826,82,Male,Emergency,I10,80053,Medicare,Lack of Information,98,2,0
+CLM-10827,77,Female,Outpatient,C50.9,99283,Medicaid,Medical Necessity,10,3,1
+CLM-10828,55,Other,Inpatient,J45.909,99214,Medicare,Duplicate Claim,63,2,0
+CLM-10829,65,Female,Emergency,S62.0,99215,Private,Timely Filing,13,1,0
+CLM-10830,34,Other,Outpatient,I10,99291,Private,Experimental/Investigational,42,3,1
+CLM-10831,30,Male,Inpatient,Z95.1,80053,Private,Lack of Information,42,3,1
+CLM-10832,34,Female,Inpatient,N18.3,99214,Private,Experimental/Investigational,89,1,1
+CLM-10833,73,Other,Outpatient,E11.9,93000,Medicare,Experimental/Investigational,65,3,1
+CLM-10834,36,Female,Inpatient,E11.9,99283,Medicare,Provider Not in Network,90,2,1
+CLM-10835,43,Male,Inpatient,E11.9,99291,Workers Comp,Experimental/Investigational,95,1,0
+CLM-10836,57,Male,Outpatient,C50.9,99214,Workers Comp,Medical Necessity,98,2,1
+CLM-10837,44,Male,Emergency,J45.909,93000,Workers Comp,Lack of Information,105,2,0
+CLM-10838,38,Male,Outpatient,E11.9,99291,Private,Medical Necessity,31,2,1
+CLM-10839,38,Female,Emergency,I10,99283,Workers Comp,Duplicate Claim,16,0,1
+CLM-10840,80,Female,Emergency,J45.909,99213,Medicaid,Prior Authorization Missing,21,0,1
+CLM-10841,57,Female,Outpatient,C50.9,71045,Workers Comp,Timely Filing,0,3,0
+CLM-10842,46,Male,Inpatient,M54.5,99213,Workers Comp,Provider Not in Network,36,2,0
+CLM-10843,59,Other,Inpatient,Z95.1,99215,Medicaid,Timely Filing,2,2,0
+CLM-10844,28,Male,Outpatient,G43.9,80053,Workers Comp,Non-Covered Service,56,0,0
+CLM-10845,83,Female,Emergency,C50.9,71045,Private,Provider Not in Network,0,2,1
+CLM-10846,26,Female,Inpatient,K21.9,93000,Workers Comp,Duplicate Claim,110,0,1
+CLM-10847,83,Other,Emergency,Z95.1,71045,Workers Comp,Incorrect Coding,44,0,0
+CLM-10848,39,Other,Outpatient,C50.9,99215,Workers Comp,Coordination of Benefits,54,3,0
+CLM-10849,75,Other,Inpatient,N18.3,93000,Medicaid,Prior Authorization Missing,59,2,0
+CLM-10850,25,Other,Inpatient,E11.9,99214,Workers Comp,Provider Not in Network,1,3,0
+CLM-10851,79,Male,Outpatient,E11.9,99283,Private,Incorrect Coding,6,1,1
+CLM-10852,70,Male,Inpatient,C50.9,71045,Private,Experimental/Investigational,19,1,1
+CLM-10853,69,Female,Emergency,I10,99214,Private,Provider Not in Network,46,3,1
+CLM-10854,71,Other,Emergency,I10,71045,Medicare,Prior Authorization Missing,29,1,1
+CLM-10855,55,Other,Emergency,J45.909,99214,Medicare,Duplicate Claim,61,0,0
+CLM-10856,45,Male,Emergency,J45.909,99214,Workers Comp,Incorrect Coding,34,3,0
+CLM-10857,83,Male,Inpatient,Z95.1,80053,Private,Incorrect Coding,31,0,1
+CLM-10858,22,Male,Emergency,N18.3,71045,Private,Lack of Information,22,3,1
+CLM-10859,75,Male,Inpatient,N18.3,99283,Private,Incorrect Coding,70,3,0
+CLM-10860,34,Other,Emergency,K21.9,99291,Medicare,Lack of Information,22,0,1
+CLM-10861,30,Male,Inpatient,M54.5,99283,Medicare,Non-Covered Service,65,3,1
+CLM-10862,78,Female,Emergency,Z95.1,93000,Medicaid,Medical Necessity,115,3,0
+CLM-10863,70,Other,Emergency,M54.5,99214,Workers Comp,Incorrect Coding,100,1,1
+CLM-10864,77,Female,Inpatient,C50.9,99214,Private,Medical Necessity,67,2,0
+CLM-10865,63,Other,Emergency,K21.9,99283,Medicaid,Prior Authorization Missing,87,2,0
+CLM-10866,45,Female,Emergency,N18.3,99213,Medicare,Lack of Information,99,1,1
+CLM-10867,50,Female,Outpatient,I10,71045,Private,Experimental/Investigational,36,3,1
+CLM-10868,24,Other,Inpatient,C50.9,99215,Medicaid,Non-Covered Service,2,2,0
+CLM-10869,37,Female,Inpatient,C50.9,99215,Medicaid,Timely Filing,13,1,0
+CLM-10870,20,Other,Inpatient,N18.3,99283,Workers Comp,Incorrect Coding,28,2,1
+CLM-10871,34,Female,Inpatient,K21.9,80053,Workers Comp,Lack of Information,73,3,1
+CLM-10872,27,Female,Inpatient,Z95.1,99215,Medicaid,Prior Authorization Missing,83,0,1
+CLM-10873,26,Other,Inpatient,C50.9,99283,Private,Provider Not in Network,42,1,0
+CLM-10874,38,Male,Inpatient,Z95.1,71045,Workers Comp,Provider Not in Network,56,3,0
+CLM-10875,49,Other,Outpatient,Z95.1,99291,Medicare,Medical Necessity,36,1,0
+CLM-10876,26,Other,Outpatient,Z95.1,99283,Medicaid,Prior Authorization Missing,26,1,1
+CLM-10877,64,Female,Emergency,N18.3,71045,Private,Prior Authorization Missing,70,1,0
+CLM-10878,50,Female,Outpatient,C50.9,99291,Medicare,Coordination of Benefits,78,0,0
+CLM-10879,28,Female,Outpatient,J45.909,93000,Medicaid,Lack of Information,12,2,1
+CLM-10880,29,Male,Emergency,I10,99214,Private,Provider Not in Network,13,1,0
+CLM-10881,38,Other,Emergency,Z95.1,99214,Medicare,Non-Covered Service,0,1,0
+CLM-10882,34,Female,Outpatient,M54.5,71045,Medicaid,Non-Covered Service,60,2,1
+CLM-10883,42,Male,Outpatient,N18.3,99291,Workers Comp,Provider Not in Network,36,2,0
+CLM-10884,76,Female,Emergency,S62.0,99291,Workers Comp,Experimental/Investigational,78,2,0
+CLM-10885,84,Male,Emergency,K21.9,99283,Private,Experimental/Investigational,59,2,1
+CLM-10886,70,Female,Inpatient,Z95.1,99283,Workers Comp,Provider Not in Network,93,2,0
+CLM-10887,40,Other,Outpatient,C50.9,99213,Medicaid,Incorrect Coding,114,3,1
+CLM-10888,44,Female,Inpatient,I10,93000,Medicaid,Prior Authorization Missing,25,0,1
+CLM-10889,35,Female,Outpatient,M54.5,99215,Medicaid,Timely Filing,5,0,0
+CLM-10890,54,Female,Inpatient,C50.9,93000,Medicaid,Experimental/Investigational,89,1,1
+CLM-10891,84,Other,Inpatient,S62.0,99215,Workers Comp,Provider Not in Network,19,3,1
+CLM-10892,42,Female,Emergency,I10,71045,Medicare,Experimental/Investigational,68,1,1
+CLM-10893,60,Male,Outpatient,C50.9,99213,Medicare,Lack of Information,20,2,1
+CLM-10894,38,Other,Inpatient,Z95.1,99213,Medicaid,Experimental/Investigational,21,2,0
+CLM-10895,33,Male,Emergency,M54.5,93000,Medicare,Timely Filing,26,3,0
+CLM-10896,56,Male,Emergency,Z95.1,93000,Medicaid,Provider Not in Network,67,1,0
+CLM-10897,23,Female,Outpatient,G43.9,99291,Workers Comp,Medical Necessity,50,3,0
+CLM-10898,64,Female,Outpatient,K21.9,71045,Medicare,Medical Necessity,57,1,0
+CLM-10899,34,Other,Inpatient,G43.9,93000,Medicaid,Duplicate Claim,58,0,0
+CLM-10900,43,Male,Emergency,J45.909,99213,Medicaid,Coordination of Benefits,96,1,1
+CLM-10901,19,Female,Inpatient,I10,93000,Medicaid,Coordination of Benefits,104,0,1
+CLM-10902,47,Female,Inpatient,N18.3,99215,Medicare,Prior Authorization Missing,8,0,1
+CLM-10903,55,Male,Outpatient,K21.9,93000,Medicare,Provider Not in Network,116,0,1
+CLM-10904,53,Male,Emergency,E11.9,99291,Medicaid,Lack of Information,96,1,1
+CLM-10905,56,Female,Outpatient,J45.909,99214,Workers Comp,Timely Filing,65,2,0
+CLM-10906,41,Female,Inpatient,K21.9,99214,Workers Comp,Prior Authorization Missing,103,0,0
+CLM-10907,20,Male,Emergency,I10,99291,Medicaid,Coordination of Benefits,79,1,1
+CLM-10908,32,Male,Inpatient,K21.9,99291,Private,Non-Covered Service,94,0,0
+CLM-10909,25,Female,Outpatient,Z95.1,99215,Medicare,Lack of Information,58,0,1
+CLM-10910,24,Male,Emergency,I10,93000,Private,Coordination of Benefits,54,0,0
+CLM-10911,19,Male,Inpatient,J45.909,80053,Medicaid,Incorrect Coding,87,3,0
+CLM-10912,42,Female,Emergency,I10,99291,Medicare,Experimental/Investigational,99,1,0
+CLM-10913,31,Other,Inpatient,C50.9,71045,Medicaid,Prior Authorization Missing,58,2,0
+CLM-10914,64,Male,Inpatient,I10,99214,Private,Provider Not in Network,79,2,1
+CLM-10915,32,Other,Emergency,E11.9,99291,Medicare,Non-Covered Service,65,1,1
+CLM-10916,22,Female,Outpatient,E11.9,71045,Private,Duplicate Claim,39,0,0
+CLM-10917,84,Male,Outpatient,N18.3,99213,Medicare,Medical Necessity,93,1,0
+CLM-10918,65,Male,Emergency,K21.9,71045,Private,Lack of Information,68,3,1
+CLM-10919,20,Male,Outpatient,C50.9,99283,Medicare,Provider Not in Network,24,3,0
+CLM-10920,61,Female,Inpatient,S62.0,71045,Private,Medical Necessity,81,1,1
+CLM-10921,79,Other,Inpatient,G43.9,99283,Workers Comp,Timely Filing,37,3,0
+CLM-10922,60,Other,Outpatient,N18.3,99283,Medicare,Non-Covered Service,54,2,0
+CLM-10923,64,Male,Inpatient,J45.909,93000,Medicaid,Experimental/Investigational,93,0,1
+CLM-10924,35,Other,Outpatient,M54.5,99214,Private,Incorrect Coding,58,0,0
+CLM-10925,70,Male,Inpatient,N18.3,99283,Private,Prior Authorization Missing,46,2,1
+CLM-10926,19,Female,Emergency,I10,99283,Medicare,Duplicate Claim,53,2,0
+CLM-10927,82,Male,Inpatient,K21.9,99283,Medicaid,Incorrect Coding,7,3,0
+CLM-10928,73,Female,Emergency,C50.9,93000,Workers Comp,Timely Filing,63,1,0
+CLM-10929,42,Female,Emergency,I10,99215,Medicaid,Coordination of Benefits,58,0,1
+CLM-10930,64,Female,Outpatient,S62.0,99291,Medicare,Non-Covered Service,15,0,1
+CLM-10931,43,Female,Emergency,I10,99291,Workers Comp,Experimental/Investigational,93,2,1
+CLM-10932,55,Female,Inpatient,J45.909,80053,Medicaid,Incorrect Coding,3,1,1
+CLM-10933,24,Other,Inpatient,J45.909,99283,Medicare,Coordination of Benefits,32,1,1
+CLM-10934,67,Other,Emergency,S62.0,71045,Medicaid,Non-Covered Service,64,0,0
+CLM-10935,83,Other,Outpatient,Z95.1,80053,Private,Provider Not in Network,36,0,0
+CLM-10936,81,Male,Emergency,C50.9,99213,Medicare,Incorrect Coding,80,3,1
+CLM-10937,24,Male,Outpatient,I10,99215,Private,Prior Authorization Missing,63,1,1
+CLM-10938,59,Female,Emergency,C50.9,99291,Medicare,Experimental/Investigational,88,2,0
+CLM-10939,44,Female,Emergency,K21.9,99214,Medicaid,Incorrect Coding,55,1,0
+CLM-10940,58,Male,Emergency,N18.3,99215,Medicare,Non-Covered Service,12,0,1
+CLM-10941,43,Other,Emergency,C50.9,93000,Medicaid,Timely Filing,26,2,0
+CLM-10942,32,Other,Inpatient,N18.3,99291,Medicare,Duplicate Claim,109,2,0
+CLM-10943,27,Female,Inpatient,K21.9,99213,Private,Experimental/Investigational,103,1,1
+CLM-10944,39,Male,Emergency,N18.3,99213,Medicare,Lack of Information,117,1,1
+CLM-10945,18,Male,Inpatient,E11.9,99213,Workers Comp,Non-Covered Service,74,1,0
+CLM-10946,85,Male,Outpatient,Z95.1,99214,Medicaid,Duplicate Claim,73,0,1
+CLM-10947,40,Female,Emergency,E11.9,93000,Workers Comp,Prior Authorization Missing,89,3,0
+CLM-10948,37,Other,Outpatient,C50.9,99213,Workers Comp,Coordination of Benefits,105,1,0
+CLM-10949,40,Other,Emergency,Z95.1,99213,Medicaid,Coordination of Benefits,19,0,1
+CLM-10950,64,Male,Emergency,G43.9,71045,Medicare,Non-Covered Service,0,1,0
+CLM-10951,38,Other,Inpatient,S62.0,99291,Medicare,Timely Filing,105,0,0
+CLM-10952,76,Male,Inpatient,E11.9,99215,Workers Comp,Prior Authorization Missing,39,2,1
+CLM-10953,68,Female,Outpatient,E11.9,99214,Private,Medical Necessity,78,1,0
+CLM-10954,59,Male,Inpatient,S62.0,99283,Workers Comp,Non-Covered Service,74,3,1
+CLM-10955,65,Female,Emergency,S62.0,99291,Medicare,Non-Covered Service,49,1,1
+CLM-10956,68,Other,Inpatient,N18.3,99291,Medicare,Non-Covered Service,61,2,1
+CLM-10957,78,Female,Inpatient,S62.0,99291,Medicare,Lack of Information,97,0,1
+CLM-10958,83,Other,Outpatient,N18.3,99283,Medicaid,Duplicate Claim,4,2,1
+CLM-10959,48,Female,Emergency,Z95.1,99213,Workers Comp,Prior Authorization Missing,28,3,1
+CLM-10960,66,Other,Outpatient,J45.909,99215,Private,Non-Covered Service,69,2,1
+CLM-10961,63,Male,Inpatient,S62.0,99213,Private,Lack of Information,115,3,1
+CLM-10962,77,Other,Inpatient,C50.9,80053,Workers Comp,Incorrect Coding,83,2,1
+CLM-10963,36,Male,Outpatient,G43.9,99291,Medicaid,Coordination of Benefits,96,3,0
+CLM-10964,49,Male,Outpatient,J45.909,71045,Medicare,Coordination of Benefits,89,0,0
+CLM-10965,77,Female,Emergency,S62.0,99213,Medicare,Prior Authorization Missing,5,3,0
+CLM-10966,63,Other,Inpatient,E11.9,93000,Medicaid,Incorrect Coding,33,0,0
+CLM-10967,54,Female,Emergency,K21.9,99215,Workers Comp,Timely Filing,78,0,0
+CLM-10968,19,Female,Inpatient,Z95.1,71045,Medicaid,Medical Necessity,19,0,0
+CLM-10969,66,Male,Inpatient,Z95.1,99213,Medicaid,Provider Not in Network,62,0,0
+CLM-10970,79,Female,Inpatient,I10,99215,Medicaid,Medical Necessity,114,1,0
+CLM-10971,72,Other,Inpatient,Z95.1,93000,Workers Comp,Timely Filing,95,2,0
+CLM-10972,37,Male,Outpatient,S62.0,99213,Private,Incorrect Coding,20,2,1
+CLM-10973,80,Other,Emergency,Z95.1,99213,Medicare,Lack of Information,13,3,1
+CLM-10974,45,Female,Inpatient,G43.9,99213,Medicare,Provider Not in Network,12,0,1
+CLM-10975,82,Female,Inpatient,C50.9,99283,Private,Timely Filing,63,3,0
+CLM-10976,59,Male,Outpatient,C50.9,99214,Workers Comp,Experimental/Investigational,76,2,0
+CLM-10977,63,Male,Inpatient,E11.9,71045,Medicaid,Timely Filing,78,0,0
+CLM-10978,54,Female,Outpatient,G43.9,71045,Medicare,Prior Authorization Missing,5,2,0
+CLM-10979,44,Other,Emergency,N18.3,99291,Medicare,Timely Filing,40,2,0
+CLM-10980,84,Other,Inpatient,S62.0,99215,Medicaid,Prior Authorization Missing,7,2,1
+CLM-10981,27,Other,Inpatient,K21.9,99213,Medicaid,Lack of Information,70,3,1
+CLM-10982,44,Other,Outpatient,G43.9,71045,Private,Lack of Information,73,2,0
+CLM-10983,48,Male,Emergency,J45.909,71045,Workers Comp,Non-Covered Service,53,2,0
+CLM-10984,71,Female,Emergency,J45.909,99283,Medicare,Timely Filing,5,1,1
+CLM-10985,37,Other,Emergency,S62.0,99214,Medicaid,Timely Filing,42,0,0
+CLM-10986,20,Other,Outpatient,C50.9,80053,Medicaid,Medical Necessity,5,0,1
+CLM-10987,19,Male,Inpatient,J45.909,71045,Medicaid,Provider Not in Network,16,3,0
+CLM-10988,82,Female,Outpatient,C50.9,99214,Medicaid,Prior Authorization Missing,64,2,0
+CLM-10989,37,Male,Outpatient,I10,71045,Medicare,Experimental/Investigational,54,2,0
+CLM-10990,43,Female,Outpatient,M54.5,93000,Workers Comp,Timely Filing,99,1,0
+CLM-10991,62,Female,Inpatient,J45.909,93000,Medicaid,Medical Necessity,75,1,0
+CLM-10992,68,Other,Inpatient,Z95.1,99291,Medicare,Timely Filing,54,1,0
+CLM-10993,36,Other,Outpatient,J45.909,99213,Private,Lack of Information,9,1,1
+CLM-10994,56,Other,Emergency,G43.9,99283,Workers Comp,Incorrect Coding,12,2,1
+CLM-10995,48,Male,Outpatient,J45.909,93000,Medicaid,Duplicate Claim,42,3,0
+CLM-10996,82,Other,Emergency,N18.3,71045,Medicare,Lack of Information,94,1,1
+CLM-10997,32,Other,Outpatient,M54.5,93000,Private,Duplicate Claim,110,2,0
+CLM-10998,84,Other,Inpatient,K21.9,80053,Medicare,Duplicate Claim,98,2,1
+CLM-10999,85,Other,Outpatient,Z95.1,71045,Medicaid,Timely Filing,94,2,0
+CLM-11000,69,Female,Emergency,E11.9,99291,Private,Non-Covered Service,77,0,0
