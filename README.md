@@ -7,6 +7,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-RandomForest-orange?style=flat-square&logo=scikit-learn)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=flat-square&logo=plotly)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+🔗 **Live Demo:** [Click to Open DenialShield](https://rcm-intelligence-system-6h6blfsfaidbs5tbhurqv5.streamlit.app/)
 
 ---
 
